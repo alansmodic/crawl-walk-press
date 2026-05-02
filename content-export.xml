@@ -17,13 +17,13 @@
  7. WordPress will then import each of the posts, pages, comments, categories, etc.
     contained in this file into your site.
 -->
-<!-- generator="WordPress/6.9.4" created="2026-05-02 18:10" -->
+<!-- generator="WordPress/6.9.4" created="2026-05-02 18:12" -->
 <rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
   <channel>
 <title>Crawl, Walk, Press</title>
 <link>http://localhost:8886</link>
 <description>30 days to master the WordPress AI stack — by Alan Smodic</description>
-<pubDate>Sat, 02 May 2026 18:10:29 +0000</pubDate>
+<pubDate>Sat, 02 May 2026 18:12:49 +0000</pubDate>
 <language>en-US</language>
 <wp:wxr_version>1.2</wp:wxr_version>
 <wp:base_site_url>http://localhost:8886</wp:base_site_url>
@@ -5493,6 +5493,177 @@ and capability checks.</code></pre>
     <wp:meta_key>origin</wp:meta_key>
     <wp:meta_value><![CDATA[theme]]></wp:meta_value>
   </wp:postmeta>
+</item>
+<item>
+  <title><![CDATA[About]]></title>
+  <link>http://localhost:8886/about/</link>
+  <pubDate>Sat, 02 May 2026 18:12:40 +0000</pubDate>
+  <dc:creator/>
+  <guid isPermaLink="false">http://localhost:8886/about/</guid>
+  <description/>
+  <content:encoded><![CDATA[<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px","left":"30px","right":"30px"}},"color":{"background":"#f0f6fc"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-background" style="background-color:#f0f6fc;padding-top:40px;padding-right:30px;padding-bottom:40px;padding-left:30px">
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">About Crawl, Walk, Press</h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
+<p style="font-size:18px">A free, open-source 30-day training program that teaches editorial and product teams to build with the WordPress AI stack.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Why This Exists</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>WordPress is becoming AI-native. In 2025-2026, the platform shipped the Abilities API, a Model Context Protocol server, an AI Client SDK, and a growing ecosystem of AI-powered plugins. These are powerful tools — but most editorial teams don't know they exist, let alone how to use them together.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Crawl, Walk, Press</strong> bridges that gap. It's a structured, hands-on program designed for the people who actually create content — editors, writers, product managers, and publishing teams — not just developers.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">The Philosophy</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The name says it all:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul>
+<!-- wp:list-item -->
+<li><strong>Crawl</strong> (Week 1) — Install the tools, understand what each one does, get comfortable</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Walk</strong> (Weeks 2-3) — Connect them to your real content, build actual workflows, see real results</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Press</strong> (Week 4) — Ship it to your team, write the policy, measure the impact, present the demo</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Every exercise takes 10-20 minutes. No coding required through Day 25. You can do it during your morning coffee.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">The Stack</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>You'll learn seven tools that make WordPress AI-native:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table><thead><tr><th>Tool</th><th>What It Does</th><th>When You Learn It</th></tr></thead><tbody><tr><td><strong>Abilities API</strong></td><td>WordPress core framework for AI-discoverable capabilities</td><td>Day 6</td></tr><tr><td><strong>WordPress MCP</strong></td><td>Connects AI agents like Claude to your WordPress site</td><td>Day 4, then throughout</td></tr><tr><td><strong>Studio CLI &amp; Studio Code</strong></td><td>Local dev + AI-powered theme/site building</td><td>Day 2, Weeks 3-4</td></tr><tr><td><strong>Telex</strong></td><td>Describe an idea in English → get a WordPress block or theme</td><td>Days 3, 12, 19</td></tr><tr><td><strong>WordPress Playground</strong></td><td>Full WordPress in your browser, zero install</td><td>Day 1</td></tr><tr><td><strong>WordPress AI Experiments Plugin</strong></td><td>Title gen, excerpts, alt text, content optimization</td><td>Day 5</td></tr><tr><td><strong>WordPress 7.0 AI Client</strong></td><td>Provider-agnostic AI SDK in WordPress core</td><td>Days 26, 28-30</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Who It's For</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>This program is designed for:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul>
+<!-- wp:list-item -->
+<li><strong>Editorial teams</strong> at digital publishers who want to integrate AI into their daily workflows</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Product managers</strong> evaluating WordPress AI capabilities for their publications</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Content strategists</strong> looking to scale output without sacrificing quality</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Anyone curious</strong> about how WordPress and AI work together in 2026</li>
+<!-- /wp:list-item -->
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>You don't need to be a developer. You don't need a specific hosting provider. You just need a computer, curiosity, and 15 minutes a day.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">How to Access the Course</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"16px"}}}} -->
+<div class="wp-block-columns">
+<!-- wp:column {"style":{"border":{"width":"2px","color":"#4f46e5","radius":"12px"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"20px","right":"20px"}}}} -->
+<div class="wp-block-column" style="border-color:#4f46e5;border-width:2px;border-radius:12px;padding-top:24px;padding-right:20px;padding-bottom:24px;padding-left:20px">
+<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"16px"}}} -->
+<h3 class="wp-block-heading" style="font-size:16px">🌐 In Your Browser</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
+<p style="font-size:14px"><a href="https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/alansmodic/crawl-walk-press/main/blueprint.json">Launch in WordPress Playground</a> — try the full course instantly, no install needed.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"style":{"border":{"width":"2px","color":"#7c3aed","radius":"12px"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"20px","right":"20px"}}}} -->
+<div class="wp-block-column" style="border-color:#7c3aed;border-width:2px;border-radius:12px;padding-top:24px;padding-right:20px;padding-bottom:24px;padding-left:20px">
+<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"16px"}}} -->
+<h3 class="wp-block-heading" style="font-size:16px">💻 Run Locally</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
+<p style="font-size:14px">Clone the <a href="https://github.com/alansmodic/crawl-walk-press">GitHub repo</a> and run with Studio CLI for a persistent local site with full WP-CLI access.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"style":{"border":{"width":"2px","color":"#10b981","radius":"12px"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"20px","right":"20px"}}}} -->
+<div class="wp-block-column" style="border-color:#10b981;border-width:2px;border-radius:12px;padding-top:24px;padding-right:20px;padding-bottom:24px;padding-left:20px">
+<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"16px"}}} -->
+<h3 class="wp-block-heading" style="font-size:16px">📄 Read Offline</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
+<p style="font-size:14px">Download the <a href="https://github.com/alansmodic/crawl-walk-press/blob/main/crawl-walk-press.md">full markdown</a> or import the <a href="https://github.com/alansmodic/crawl-walk-press/blob/main/todoist-template.csv">Todoist template</a> for task tracking.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Open Source</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Crawl, Walk, Press is free and open-source under the GPL v2 license — the same license as WordPress itself. The entire course, theme, and progress tracker are available on <a href="https://github.com/alansmodic/crawl-walk-press">GitHub</a>. Found a typo? Have a better exercise idea? PRs welcome.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Created By</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Alan Smodic</strong> — I work with media publishers building on WordPress, and kept seeing the same gap: powerful AI tools shipping in WordPress, but editorial teams not knowing how to use them. This program is my attempt to fix that, one 15-minute exercise at a time.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="http://localhost:8886/">← Back to Home</a> · <a href="http://localhost:8886/faq/">FAQ →</a></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+  <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+  <wp:post_id>125</wp:post_id>
+  <wp:post_date>2026-05-02 18:12:40</wp:post_date>
+  <wp:post_date_gmt>2026-05-02 18:12:40</wp:post_date_gmt>
+  <wp:post_modified>2026-05-02 18:12:40</wp:post_modified>
+  <wp:post_modified_gmt>2026-05-02 18:12:40</wp:post_modified_gmt>
+  <wp:comment_status>closed</wp:comment_status>
+  <wp:ping_status>closed</wp:ping_status>
+  <wp:post_name>about</wp:post_name>
+  <wp:status>publish</wp:status>
+  <wp:post_parent>0</wp:post_parent>
+  <wp:menu_order>50</wp:menu_order>
+  <wp:post_type>page</wp:post_type>
+  <wp:post_password/>
+  <wp:is_sticky>0</wp:is_sticky>
 </item>
   </channel>
 </rss>
