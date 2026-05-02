@@ -1,0 +1,52 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"preferredVersions": {
+		"php": "8.3",
+		"wp": "latest"
+	},
+	"features": {
+		"networking": true
+	},
+	"steps": [
+		{
+			"step": "installTheme",
+			"themeZipFile": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/alansmodic/crawl-walk-press/main/.playground/cw5k-theme.zip"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "installPlugin",
+			"pluginZipFile": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/alansmodic/crawl-walk-press/main/.playground/cw5k-progress.zip"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "importWxr",
+			"file": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/alansmodic/crawl-walk-press/main/content-export.xml"
+			}
+		},
+		{
+			"step": "setSiteOptions",
+			"options": {
+				"blogname": "Crawl, Walk, Press",
+				"blogdescription": "30 days to master the WordPress AI stack — by Alan Smodic",
+				"show_on_front": "page",
+				"page_on_front": 2
+			}
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require('/wordpress/wp-load.php'); $home = get_page_by_title('Home'); if ($home) { update_option('page_on_front', $home->ID); update_option('show_on_front', 'page'); }"
+		}
+	]
+}
