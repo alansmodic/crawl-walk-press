@@ -89,17 +89,24 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     backdrop-filter: blur(8px);
 }
 
-/* --- Tool Cards (columns on homepage) --- */
-.wp-block-column {
+/* --- Tool Cards (columns in content area only) --- */
+.entry-content .wp-block-column,
+.wp-block-post-content .wp-block-column {
     border-radius: 12px;
     border: 1px solid var(--wp--preset--color--accent-6, rgba(0,0,0,0.08));
     padding: 1.25rem;
     transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-.wp-block-column:hover {
+.entry-content .wp-block-column:hover,
+.wp-block-post-content .wp-block-column:hover {
     box-shadow: 0 6px 20px rgba(0,0,0,0.06);
     transform: translateY(-2px);
+}
+
+/* --- Hide empty columns --- */
+.wp-block-column:empty {
+    display: none;
 }
 
 /* --- Tables --- */
