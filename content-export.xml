@@ -17,13 +17,13 @@
  7. WordPress will then import each of the posts, pages, comments, categories, etc.
     contained in this file into your site.
 -->
-<!-- generator="WordPress/6.9.4" created="2026-05-02 17:43" -->
+<!-- generator="WordPress/6.9.4" created="2026-05-02 17:53" -->
 <rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
   <channel>
 <title>Crawl, Walk, Press</title>
 <link>http://localhost:8886</link>
 <description>30 days to master the WordPress AI stack — by Alan Smodic</description>
-<pubDate>Sat, 02 May 2026 17:43:07 +0000</pubDate>
+<pubDate>Sat, 02 May 2026 17:53:08 +0000</pubDate>
 <language>en-US</language>
 <wp:wxr_version>1.2</wp:wxr_version>
 <wp:base_site_url>http://localhost:8886</wp:base_site_url>
@@ -170,7 +170,7 @@
 <h3 class="wp-block-heading" style="font-size:17px">📊 WordPress AI Experiments plugin</h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
-<p style="font-size:14px">WordPress's AI-powered content toolkit. AI-powered title generation, excerpt suggestions, alt text generation, and content optimization — all inside the editor. <a href="https://www.WordPress AI plugin/">Learn more →</a></p>
+<p style="font-size:14px">WordPress's AI-powered content toolkit. AI-powered title generation, excerpt suggestions, alt text generation, and content optimization — all inside the editor. <a href="https://github.com/WordPress/ai">Learn more →</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
@@ -285,8 +285,8 @@
   <wp:post_id>4</wp:post_id>
   <wp:post_date>2026-04-30 15:23:56</wp:post_date>
   <wp:post_date_gmt>2026-04-30 15:23:56</wp:post_date_gmt>
-  <wp:post_modified>2026-05-02 17:29:01</wp:post_modified>
-  <wp:post_modified_gmt>2026-05-02 17:29:01</wp:post_modified_gmt>
+  <wp:post_modified>2026-05-02 17:52:59</wp:post_modified>
+  <wp:post_modified_gmt>2026-05-02 17:52:59</wp:post_modified_gmt>
   <wp:comment_status>closed</wp:comment_status>
   <wp:ping_status>closed</wp:ping_status>
   <wp:post_name>home</wp:post_name>
@@ -318,7 +318,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul class="wp-block-list"><li><strong><a href="https://playground.wordpress.net">WordPress Playground</a></strong> — browser-based WordPress sandbox, zero install</li><li><strong><a href="https://developer.wordpress.com/docs/developer-tools/studio/cli/">Studio CLI</a></strong> &amp; <strong><a href="https://wordpress.com/blog/2026/04/27/studio-code-beta/">Studio Code</a></strong> — local dev + AI-powered theme building</li><li><strong><a href="https://telex.automattic.ai">Telex</a></strong> — describe an idea in English, get a WordPress block or theme</li><li><strong><a href="https://developer.wordpress.com/docs/mcp/">WordPress MCP</a></strong> — connect Claude and other AI agents to your site</li><li><strong><a href="https://www.WordPress AI plugin/">WordPress AI Experiments plugin</a></strong> — AI content features, headline optimization, engagement boost</li><li><strong><a href="https://developer.wordpress.org/apis/abilities-api/">Abilities API</a></strong> — the WordPress core framework for AI-discoverable capabilities</li></ul>
+<ul class="wp-block-list"><li><strong><a href="https://playground.wordpress.net">WordPress Playground</a></strong> — browser-based WordPress sandbox, zero install</li><li><strong><a href="https://developer.wordpress.com/docs/developer-tools/studio/cli/">Studio CLI</a></strong> &amp; <strong><a href="https://wordpress.com/blog/2026/04/27/studio-code-beta/">Studio Code</a></strong> — local dev + AI-powered theme building</li><li><strong><a href="https://telex.automattic.ai">Telex</a></strong> — describe an idea in English, get a WordPress block or theme</li><li><strong><a href="https://developer.wordpress.com/docs/mcp/">WordPress MCP</a></strong> — connect Claude and other AI agents to your site</li><li><strong><a href="https://github.com/WordPress/ai">WordPress AI Experiments plugin</a></strong> — AI content features, headline optimization, engagement boost</li><li><strong><a href="https://developer.wordpress.org/apis/abilities-api/">Abilities API</a></strong> — the WordPress core framework for AI-discoverable capabilities</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"40px","bottom":"8px"}}}} -->
@@ -415,8 +415,8 @@
   <wp:post_id>5</wp:post_id>
   <wp:post_date>2026-04-30 15:23:56</wp:post_date>
   <wp:post_date_gmt>2026-04-30 15:23:56</wp:post_date_gmt>
-  <wp:post_modified>2026-05-02 17:29:01</wp:post_modified>
-  <wp:post_modified_gmt>2026-05-02 17:29:01</wp:post_modified_gmt>
+  <wp:post_modified>2026-05-02 17:52:59</wp:post_modified>
+  <wp:post_modified_gmt>2026-05-02 17:52:59</wp:post_modified_gmt>
   <wp:comment_status>closed</wp:comment_status>
   <wp:ping_status>closed</wp:ping_status>
   <wp:post_name>week-1-get-the-stack</wp:post_name>
@@ -1751,7 +1751,7 @@ studio wp --path ~/Studio/my-newsroom eval 'print_r(wp_get_registered_abilities(
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul class="wp-block-list"><li><strong><a href="https://developer.wordpress.com/docs/mcp/">WordPress MCP</a></strong> — read your site, create drafts, generate metadata</li><li><strong>Claude Desktop</strong> — your AI editorial assistant, now connected to your CMS</li><li><strong><a href="https://www.WordPress AI plugin/">WordPress AI Experiments plugin</a></strong> — titles, excerpts, alt text, content optimization</li><li><strong><a href="https://telex.automattic.ai">Telex</a></strong> — build custom editorial blocks from descriptions</li><li><strong>Studio Code</strong> — landing pages and theme iteration</li></ul>
+<ul class="wp-block-list"><li><strong><a href="https://developer.wordpress.com/docs/mcp/">WordPress MCP</a></strong> — read your site, create drafts, generate metadata</li><li><strong>Claude Desktop</strong> — your AI editorial assistant, now connected to your CMS</li><li><strong><a href="https://github.com/WordPress/ai">WordPress AI Experiments plugin</a></strong> — titles, excerpts, alt text, content optimization</li><li><strong><a href="https://telex.automattic.ai">Telex</a></strong> — build custom editorial blocks from descriptions</li><li><strong>Studio Code</strong> — landing pages and theme iteration</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"40px","bottom":"8px"}}}} -->
@@ -1817,8 +1817,8 @@ studio wp --path ~/Studio/my-newsroom eval 'print_r(wp_get_registered_abilities(
   <wp:post_id>14</wp:post_id>
   <wp:post_date>2026-04-30 15:23:56</wp:post_date>
   <wp:post_date_gmt>2026-04-30 15:23:56</wp:post_date_gmt>
-  <wp:post_modified>2026-05-02 17:29:01</wp:post_modified>
-  <wp:post_modified_gmt>2026-05-02 17:29:01</wp:post_modified_gmt>
+  <wp:post_modified>2026-05-02 17:52:59</wp:post_modified>
+  <wp:post_modified_gmt>2026-05-02 17:52:59</wp:post_modified_gmt>
   <wp:comment_status>closed</wp:comment_status>
   <wp:ping_status>closed</wp:ping_status>
   <wp:post_name>week-2-connect-create</wp:post_name>
@@ -2743,7 +2743,7 @@ in a table.</code></pre>
 <!-- /wp:heading -->
 
 <!-- wp:list -->
-<ul class="wp-block-list"><li><strong><a href="https://developer.wordpress.com/docs/mcp/">WordPress MCP</a></strong> — content repurposing, calendar generation, internal linking</li><li><strong>Studio Code</strong> — category audits via category management skill, <code>/need-for-speed</code> performance audits</li><li><strong><a href="https://www.WordPress AI plugin/">WordPress AI Experiments plugin</a></strong> — AI content features + Claude for strategic cross-linking</li><li><strong><a href="https://telex.automattic.ai">Telex</a></strong> — custom editorial themes from descriptions</li><li><strong><a href="https://playground.wordpress.net">Playground</a></strong> — safe sandbox for testing AI integrations before production</li></ul>
+<ul class="wp-block-list"><li><strong><a href="https://developer.wordpress.com/docs/mcp/">WordPress MCP</a></strong> — content repurposing, calendar generation, internal linking</li><li><strong>Studio Code</strong> — category audits via category management skill, <code>/need-for-speed</code> performance audits</li><li><strong><a href="https://github.com/WordPress/ai">WordPress AI Experiments plugin</a></strong> — AI content features + Claude for strategic cross-linking</li><li><strong><a href="https://telex.automattic.ai">Telex</a></strong> — custom editorial themes from descriptions</li><li><strong><a href="https://playground.wordpress.net">Playground</a></strong> — safe sandbox for testing AI integrations before production</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"40px","bottom":"8px"}}}} -->
@@ -2809,8 +2809,8 @@ in a table.</code></pre>
   <wp:post_id>22</wp:post_id>
   <wp:post_date>2026-04-30 15:23:56</wp:post_date>
   <wp:post_date_gmt>2026-04-30 15:23:56</wp:post_date_gmt>
-  <wp:post_modified>2026-05-02 17:29:01</wp:post_modified>
-  <wp:post_modified_gmt>2026-05-02 17:29:01</wp:post_modified_gmt>
+  <wp:post_modified>2026-05-02 17:52:59</wp:post_modified>
+  <wp:post_modified_gmt>2026-05-02 17:52:59</wp:post_modified_gmt>
   <wp:comment_status>closed</wp:comment_status>
   <wp:ping_status>closed</wp:ping_status>
   <wp:post_name>week-3-editorial-workflows</wp:post_name>
