@@ -1,0 +1,53 @@
+# WordPress core (not our code)
+wp-admin/
+wp-includes/
+wp-*.php
+index.php
+license.txt
+readme.html
+xmlrpc.php
+
+# WordPress config (contains secrets)
+wp-config.php
+wp-config-sample.php
+
+# wp-content defaults (not our code)
+wp-content/db.php
+wp-content/index.php
+wp-content/fonts/
+wp-content/mu-plugins/
+wp-content/uploads/
+
+# Default themes (keep only cw5k)
+wp-content/themes/twenty*/
+
+# Default/bundled plugins (not our code)
+wp-content/plugins/akismet/
+wp-content/plugins/hello.php
+wp-content/plugins/index.php
+
+# Deactivated plugins
+wp-content/plugins/cw5k-style/
+
+# Database access control
+wp-content/database/.htaccess
+wp-content/database/index.php
+
+# Migration/utility scripts (one-time use)
+populate-content.php
+update-content.php
+update-week*.php
+update-remove-parsely.php
+update-parsely-refs.php
+rebrand*.php
+add-attribution.php
+fix-title.php
+
+# Studio metadata
+STUDIO.md
+AGENTS.md
+CLAUDE.md
+
+# OS files
+.DS_Store
+Thumbs.db

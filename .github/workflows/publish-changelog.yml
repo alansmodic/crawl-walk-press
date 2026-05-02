@@ -1,0 +1,105 @@
+name: Publish Changelog Post
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '.github/**'
+      - 'README.md'
+
+jobs:
+  publish-changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get commit details
+        id: commits
+        run: |
+          # Get commits since last tag (or last 5 if no tags)
+          if git describe --tags --abbrev=0 2>/dev/null; then
+            SINCE=$(git describe --tags --abbrev=0)
+            COMMITS=$(git log "$SINCE"..HEAD --pretty=format:"- %s (%an)" --no-merges)
+          else
+            COMMITS=$(git log -5 --pretty=format:"- %s (%an)" --no-merges)
+          fi
+
+          # Get changed files summary
+          CHANGED=$(git diff HEAD~1 --stat --no-color 2>/dev/null || echo "Initial commit")
+
+          # Get content diff (human-readable XML changes)
+          CONTENT_DIFF=$(git diff HEAD~1 -- content-export.xml 2>/dev/null | head -200 || echo "No content changes")
+
+          # Save to files for the next step
+          echo "$COMMITS" > /tmp/commits.txt
+          echo "$CHANGED" > /tmp/changed.txt
+          echo "$CONTENT_DIFF" > /tmp/content_diff.txt
+
+      - name: Generate blog post with Claude
+        id: generate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          COMMITS=$(cat /tmp/commits.txt)
+          CHANGED=$(cat /tmp/changed.txt)
+          CONTENT_DIFF=$(cat /tmp/content_diff.txt | head -100)
+
+          PROMPT="You are writing a short changelog blog post for 'Crawl, Walk, Press', a 30-day WordPress AI training program by Alan Smodic.
+
+          Based on these recent commits:
+          $COMMITS
+
+          Files changed:
+          $CHANGED
+
+          Content changes (from XML export diff):
+          $CONTENT_DIFF
+
+          Write a blog post (200-400 words) with:
+          - A catchy title
+          - What changed and why it matters for learners
+          - Keep it conversational and encouraging
+          - End with a link to the course
+
+          Return ONLY valid JSON: {\"title\": \"...\", \"content\": \"...\"}
+          Use HTML in the content field for formatting."
+
+          RESPONSE=$(curl -s https://api.anthropic.com/v1/messages \
+            -H "content-type: application/json" \
+            -H "x-api-key: $ANTHROPIC_API_KEY" \
+            -H "anthropic-version: 2023-06-01" \
+            -d "$(jq -n --arg prompt "$PROMPT" '{
+              "model": "claude-haiku-4-5-20251001",
+              "max_tokens": 1024,
+              "messages": [{"role": "user", "content": $prompt}]
+            }')")
+
+          echo "$RESPONSE" | jq -r '.content[0].text' > /tmp/blog_post.json
+
+      - name: Publish to WordPress
+        env:
+          WP_SITE_URL: ${{ secrets.WP_CHANGELOG_SITE_URL }}
+          WP_USERNAME: ${{ secrets.WP_CHANGELOG_USERNAME }}
+          WP_APP_PASSWORD: ${{ secrets.WP_CHANGELOG_APP_PASSWORD }}
+        run: |
+          if [ -z "$WP_SITE_URL" ]; then
+            echo "⚠️ WP_CHANGELOG_SITE_URL not set — printing post instead"
+            cat /tmp/blog_post.json
+            exit 0
+          fi
+
+          TITLE=$(jq -r '.title' /tmp/blog_post.json)
+          CONTENT=$(jq -r '.content' /tmp/blog_post.json)
+
+          curl -s -X POST "$WP_SITE_URL/wp-json/wp/v2/posts" \
+            -u "$WP_USERNAME:$WP_APP_PASSWORD" \
+            -H "Content-Type: application/json" \
+            -d "$(jq -n \
+              --arg title "$TITLE" \
+              --arg content "$CONTENT" \
+              '{title: $title, content: $content, status: "draft"}')" \
+            | jq '{id: .id, title: .title.rendered, status: .status, link: .link}'
+
+          echo "✅ Changelog post created as draft"

@@ -1,0 +1,21 @@
+#!/bin/bash
+# Pre-commit hook: auto-export WordPress content as XML before each commit
+# This keeps the human-readable content export in sync with the SQLite database
+
+SITE_DIR="$(git rev-parse --show-toplevel)"
+
+# Check if Studio CLI is available
+if ! command -v studio &> /dev/null; then
+    echo "⚠️  Studio CLI not found — skipping content export"
+    exit 0
+fi
+
+echo "📦 Exporting WordPress content..."
+cd "$SITE_DIR" && studio wp export --dir=. --filename_format=content-export.xml 2>/dev/null
+
+if [ $? -eq 0 ]; then
+    git add content-export.xml
+    echo "✅ Content export updated and staged"
+else
+    echo "⚠️  Content export failed — committing without updated XML"
+fi

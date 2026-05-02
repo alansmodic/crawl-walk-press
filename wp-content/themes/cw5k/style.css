@@ -1,0 +1,225 @@
+/*
+Theme Name: Crawl, Walk, Press
+Theme URI: https://crawlwalkpress.com
+Description: Custom theme for the Crawl, Walk, Press training program. Child of Twenty Twenty-Five.
+Author: Alan Smodic
+Template: twentytwentyfive
+Version: 1.0
+Requires at least: 6.7
+Tested up to: 6.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* ============================================
+   CW5K — Custom Styles
+   ============================================ */
+
+/* --- Code Blocks: Dark terminal look --- */
+.wp-block-code {
+    background: #0f172a !important;
+    color: #e2e8f0 !important;
+    border-radius: 10px !important;
+    border: 1px solid #1e293b !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 1.5rem !important;
+    font-size: 0.85rem !important;
+    line-height: 1.7 !important;
+    overflow-x: auto;
+}
+
+.wp-block-code code {
+    color: #e2e8f0 !important;
+    background: transparent !important;
+    font-family: "Fira Code", "JetBrains Mono", "SF Mono", monospace !important;
+}
+
+/* --- Callout Boxes: Tool (purple) --- */
+.wp-block-group[style*="background-color:#f3f0ff"] {
+    background: linear-gradient(135deg, #ede9fe 0%, #f5f3ff 100%) !important;
+    border-radius: 10px !important;
+    border-left: 4px solid var(--wp--preset--color--accent-3, #503AA8) !important;
+    box-shadow: 0 1px 4px rgba(80, 58, 168, 0.08);
+}
+
+/* --- Callout Boxes: Tip (amber) --- */
+.wp-block-group[style*="background-color:#fef3c7"] {
+    background: linear-gradient(135deg, #fef9c3 0%, #fef3c7 100%) !important;
+    border-radius: 10px !important;
+    border-left: 4px solid #d97706 !important;
+    box-shadow: 0 1px 4px rgba(217, 119, 6, 0.08);
+}
+
+/* --- Callout Boxes: Key Takeaway (green) --- */
+.wp-block-group[style*="border-left-color:#16a34a"] {
+    background: linear-gradient(135deg, #dcfce7 0%, #f0fdf4 100%) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 1px 4px rgba(22, 163, 74, 0.08);
+}
+
+/* --- Day Header Bars (green info bar) --- */
+.wp-block-group[style*="background-color:#eef6ee"]:not([style*="border-left-color"]) {
+    background: linear-gradient(135deg, #ecfdf5 0%, #f0fdf4 100%) !important;
+    border-left: 4px solid #10b981 !important;
+    border-radius: 10px !important;
+}
+
+/* --- Homepage Hero Section --- */
+.page-id-4 .wp-block-group[style*="background-color:#f0f6fc"],
+.home .wp-block-group[style*="background-color:#f0f6fc"] {
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 35%, #a855f7 65%, #f59e0b 100%) !important;
+    color: white !important;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.page-id-4 .wp-block-group[style*="background-color:#f0f6fc"] h1,
+.page-id-4 .wp-block-group[style*="background-color:#f0f6fc"] h2,
+.page-id-4 .wp-block-group[style*="background-color:#f0f6fc"] p,
+.home .wp-block-group[style*="background-color:#f0f6fc"] h1,
+.home .wp-block-group[style*="background-color:#f0f6fc"] h2,
+.home .wp-block-group[style*="background-color:#f0f6fc"] p {
+    color: white !important;
+}
+
+.page-id-4 .wp-block-group[style*="background-color:#f0f6fc"] .wp-block-button__link,
+.home .wp-block-group[style*="background-color:#f0f6fc"] .wp-block-button__link {
+    background: rgba(255,255,255,0.18) !important;
+    color: white !important;
+    border: 1.5px solid rgba(255,255,255,0.4) !important;
+    backdrop-filter: blur(8px);
+}
+
+/* --- Tool Cards (columns on homepage) --- */
+.wp-block-column {
+    border-radius: 12px;
+    border: 1px solid var(--wp--preset--color--accent-6, rgba(0,0,0,0.08));
+    padding: 1.25rem;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.wp-block-column:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    transform: translateY(-2px);
+}
+
+/* --- Tables --- */
+.wp-block-table table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--wp--preset--color--accent-6, rgba(0,0,0,0.08));
+}
+
+.wp-block-table thead tr {
+    background: var(--wp--preset--color--accent-3, #503AA8);
+}
+
+.wp-block-table thead th {
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem 1rem;
+    border: none;
+}
+
+.wp-block-table tbody td {
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.wp-block-table tbody tr:nth-child(even) {
+    background: var(--wp--preset--color--accent-5, #FBFAF3);
+}
+
+/* --- Ordered Lists: Numbered Circles --- */
+ol.wp-block-list {
+    counter-reset: cw5k-step;
+    list-style: none;
+    padding-left: 0;
+}
+
+ol.wp-block-list > li {
+    counter-increment: cw5k-step;
+    position: relative;
+    padding-left: 2.5rem;
+}
+
+ol.wp-block-list > li::before {
+    content: counter(cw5k-step);
+    position: absolute;
+    left: 0;
+    top: 0.2em;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: var(--wp--preset--color--accent-3, #503AA8);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+/* --- Prev/Next Navigation Links (last paragraph) --- */
+.entry-content > p:last-child a,
+.wp-block-post-content > p:last-child a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--wp--preset--color--accent-5, #FBFAF3);
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.875rem;
+    margin: 2px;
+    transition: all 0.2s ease;
+}
+
+.entry-content > p:last-child a:hover,
+.wp-block-post-content > p:last-child a:hover {
+    background: var(--wp--preset--color--accent-3, #503AA8);
+    color: white;
+}
+
+/* --- Finish Banner (Days 28-30) --- */
+.wp-block-group[style*="border-radius:8px"][style*="background-color:#f0f6fc"] {
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #f59e0b 100%) !important;
+    color: white !important;
+    border-radius: 12px !important;
+}
+
+.wp-block-group[style*="border-radius:8px"][style*="background-color:#f0f6fc"] h3,
+.wp-block-group[style*="border-radius:8px"][style*="background-color:#f0f6fc"] p {
+    color: white !important;
+}
+
+/* --- Links: Subtle underline --- */
+.entry-content a:not([class*="wp-block-button"]),
+.wp-block-post-content a:not([class*="wp-block-button"]) {
+    text-decoration-color: var(--wp--preset--color--accent-6, rgba(0,0,0,0.15));
+    text-underline-offset: 3px;
+    transition: text-decoration-color 0.2s;
+}
+
+.entry-content a:not([class*="wp-block-button"]):hover,
+.wp-block-post-content a:not([class*="wp-block-button"]):hover {
+    text-decoration-color: currentColor;
+}
+
+/* --- Site Title Gradient --- */
+.wp-block-site-title a {
+    background: linear-gradient(135deg, #4f46e5, #a855f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* --- Smooth scroll --- */
+html {
+    scroll-behavior: smooth;
+}
+
+/* --- Selection --- */
+::selection {
+    background: rgba(79, 70, 229, 0.15);
+}
