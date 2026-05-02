@@ -214,6 +214,38 @@ ol.wp-block-list > li::before {
     background-clip: text;
 }
 
+/* --- Copy Button on Code Blocks --- */
+.cw5k-copy-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 4px 12px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #94a3b8;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: inherit;
+    line-height: 1;
+    z-index: 1;
+}
+
+.cw5k-copy-btn:hover {
+    background: rgba(255, 255, 255, 0.18);
+    color: #e2e8f0;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.cw5k-copy-btn.copied {
+    background: rgba(16, 185, 129, 0.2);
+    color: #6ee7b7;
+    border-color: rgba(16, 185, 129, 0.4);
+}
+
 /* --- Smooth scroll --- */
 html {
     scroll-behavior: smooth;
