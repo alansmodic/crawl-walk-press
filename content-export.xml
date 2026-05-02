@@ -17,13 +17,13 @@
  7. WordPress will then import each of the posts, pages, comments, categories, etc.
     contained in this file into your site.
 -->
-<!-- generator="WordPress/6.9.4" created="2026-05-02 17:59" -->
+<!-- generator="WordPress/6.9.4" created="2026-05-02 18:05" -->
 <rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
   <channel>
 <title>Crawl, Walk, Press</title>
 <link>http://localhost:8886</link>
 <description>30 days to master the WordPress AI stack — by Alan Smodic</description>
-<pubDate>Sat, 02 May 2026 17:59:35 +0000</pubDate>
+<pubDate>Sat, 02 May 2026 18:05:23 +0000</pubDate>
 <language>en-US</language>
 <wp:wxr_version>1.2</wp:wxr_version>
 <wp:base_site_url>http://localhost:8886</wp:base_site_url>
@@ -4914,6 +4914,30 @@ and capability checks.</code></pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What plugins should I install?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The course works without any third-party plugins — all exercises use WordPress core features, MCP, and the tools in the stack. But several popular plugins now support the <strong>Abilities API</strong>, which means AI agents can discover and use their features automatically. Installing these will make your exercises richer:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","bottom":"20px","left":"24px","right":"24px"}},"color":{"background":"#f3f0ff"},"border":{"left":{"color":"#7c3aed","width":"4px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-background" style="border-left-color:#7c3aed;border-left-width:4px;background-color:#f3f0ff;padding-top:20px;padding-right:24px;padding-bottom:20px;padding-left:24px">
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
+<p style="font-size:14px">🔧 <strong>Plugins with Abilities API support</strong> — These plugins expose their capabilities to AI agents, making them discoverable via MCP. <a href="https://j.cv/ai-across-the-wp-ecosystem/">Full list →</a></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table><thead><tr><th>Plugin</th><th>What It Does</th><th>Why It Helps</th></tr></thead><tbody><tr><td><strong><a href="https://wordpress.org/plugins/wordpress-seo/">Yoast SEO</a></strong></td><td>SEO analysis, meta descriptions, sitemaps</td><td>Days 9, 16, 20 — AI agents can read and optimize your SEO settings</td></tr><tr><td><strong><a href="https://jetpack.com/">Jetpack</a></strong></td><td>Publishing, analytics, security, forms</td><td>Days 0, 1 — Widely used by publishers, AI-discoverable features</td></tr><tr><td><strong><a href="https://wordpress.org/plugins/advanced-custom-fields/">ACF</a></strong> (6.8+)</td><td>Custom fields, post types, taxonomies</td><td>Day 26 — AI agents can discover and create custom content models</td></tr><tr><td><strong><a href="https://wordpress.org/plugins/wpforms-lite/">WPForms</a></strong></td><td>Forms, surveys, lead generation</td><td>Practical for editorial feedback loops and audience research</td></tr><tr><td><strong><a href="https://github.com/WordPress/ai">WordPress AI Experiments</a></strong></td><td>Title gen, excerpts, alt text, content optimization</td><td>Day 5 — Core AI features in the editor, works with any AI provider</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph -->
+<p>You don't need all of these — pick the ones relevant to your workflow. The <strong>WordPress AI Experiments plugin</strong> is the only one used directly in the exercises. The others enhance what AI agents can do when connected via MCP.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">Where can I learn more about each tool?</h3>
 <!-- /wp:heading -->
 
@@ -4950,8 +4974,8 @@ and capability checks.</code></pre>
   <wp:post_id>38</wp:post_id>
   <wp:post_date>2026-04-30 15:23:56</wp:post_date>
   <wp:post_date_gmt>2026-04-30 15:23:56</wp:post_date_gmt>
-  <wp:post_modified>2026-05-02 17:29:01</wp:post_modified>
-  <wp:post_modified_gmt>2026-05-02 17:29:01</wp:post_modified_gmt>
+  <wp:post_modified>2026-05-02 18:05:15</wp:post_modified>
+  <wp:post_modified_gmt>2026-05-02 18:05:15</wp:post_modified_gmt>
   <wp:comment_status>closed</wp:comment_status>
   <wp:ping_status>closed</wp:ping_status>
   <wp:post_name>faq</wp:post_name>
