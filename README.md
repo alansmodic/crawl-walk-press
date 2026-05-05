@@ -6,6 +6,8 @@ A free, open-source training program for editorial and product teams. Learn to u
 
 [**▶ Launch in WordPress Playground**](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/alansmodic/crawl-walk-press/main/blueprint.json) — try the full course in your browser, no install needed
 
+_Last verified: May 5, 2026._
+
 ## Get Started
 
 Pick the option that works for you:
@@ -16,12 +18,15 @@ Click the link above — the full 35-page course loads in your browser via WordP
 
 ### Option 2: Run it locally with Studio CLI
 
+Install the [Studio desktop app](https://developer.wordpress.com/studio/), enable **Studio CLI for terminal** in Studio settings, then clone the repo into your Studio folder:
+
 ```bash
-brew install --cask studio
 git clone https://github.com/alansmodic/crawl-walk-press.git ~/Studio/crawl-walk-press
 ```
 
 Open Studio, add the site, and start it. The SQLite database is included — all 35 pages are ready. This gives you a persistent local site with full WP-CLI access for the hands-on exercises.
+
+Prefer npm? Studio CLI can also be installed globally with `npm install -g wp-studio`.
 
 ### Option 3: Read the markdown (offline / print-friendly)
 
@@ -42,6 +47,16 @@ Import [**todoist-template.csv**](todoist-template.csv) into Todoist as a new pr
 - **Markdown export** — full course as a single readable file
 - **Todoist template** — importable task list for tracking progress
 
+## Prerequisites
+
+| Need | Required? | Notes |
+|------|-----------|-------|
+| AI assistant account | Required | Claude is used in examples; other MCP-capable assistants can work. |
+| WordPress site | Required | WordPress.com, Pressable, self-hosted WordPress, Studio CLI, or Playground. |
+| WordPress.com account | Recommended | Needed for the easiest MCP path and Studio preview/auth flows. |
+| Node.js 18+ | Required for Studio CLI | Needed for local Studio CLI workflows. |
+| Production write access | Optional | Use drafts and test sites first; production access is not required to learn. |
+
 ## The Stack
 
 | Tool | What It Does |
@@ -57,7 +72,7 @@ Import [**todoist-template.csv**](todoist-template.csv) into Todoist as a new pr
 ## Hosting Options
 
 This training works with **any WordPress setup**:
-- [WordPress.com](https://wordpress.com) — managed hosting with built-in AI features
+- [WordPress.com](https://wordpress.com) — managed hosting with built-in AI features and MCP on paid plans
 - [Pressable](https://pressable.com) — managed WordPress hosting by Automattic
 - Any self-hosted WordPress site (6.7+)
 

@@ -17,13 +17,13 @@
  7. WordPress will then import each of the posts, pages, comments, categories, etc.
     contained in this file into your site.
 -->
-<!-- generator="WordPress/6.9.4" created="2026-05-02 18:16" -->
+<!-- generator="WordPress/6.9.4" created="2026-05-05 05:01" -->
 <rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
   <channel>
 <title>Crawl, Walk, Press</title>
 <link>http://localhost:8886</link>
 <description>30 days to master the WordPress AI stack — by Alan Smodic</description>
-<pubDate>Sat, 02 May 2026 18:16:58 +0000</pubDate>
+<pubDate>Tue, 05 May 2026 05:01:33 +0000</pubDate>
 <language>en-US</language>
 <wp:wxr_version>1.2</wp:wxr_version>
 <wp:base_site_url>http://localhost:8886</wp:base_site_url>
@@ -49,11 +49,25 @@
   <wp:term_name><![CDATA[Main Menu]]></wp:term_name>
 </wp:term>
 <wp:term>
+  <wp:term_id>5</wp:term_id>
+  <wp:term_taxonomy>wp_theme</wp:term_taxonomy>
+  <wp:term_slug>cw5k</wp:term_slug>
+  <wp:term_parent/>
+  <wp:term_name><![CDATA[cw5k]]></wp:term_name>
+</wp:term>
+<wp:term>
   <wp:term_id>4</wp:term_id>
   <wp:term_taxonomy>wp_template_part_area</wp:term_taxonomy>
   <wp:term_slug>footer</wp:term_slug>
   <wp:term_parent/>
   <wp:term_name><![CDATA[footer]]></wp:term_name>
+</wp:term>
+<wp:term>
+  <wp:term_id>6</wp:term_id>
+  <wp:term_taxonomy>wp_template_part_area</wp:term_taxonomy>
+  <wp:term_slug>header</wp:term_slug>
+  <wp:term_parent/>
+  <wp:term_name><![CDATA[header]]></wp:term_name>
 </wp:term>
 <wp:term>
   <wp:term_id>2</wp:term_id>
@@ -83,11 +97,8 @@
   <dc:creator/>
   <guid isPermaLink="false">http://localhost:8886/home/</guid>
   <description/>
-  <content:encoded><![CDATA[
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"80px","bottom":"60px","left":"40px","right":"40px"}},"color":{"background":"#f0f6fc"}},"layout":{"type":"constrained","contentSize":"720px"}} -->
-<div class="wp-block-group has-background" style="background-color:#f0f6fc;padding-top:80px;padding-right:40px;padding-bottom:60px;padding-left:40px">
-
-<!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"52px","fontWeight":"900","letterSpacing":"-2px"}}} -->
+  <content:encoded><![CDATA[<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"80px","bottom":"60px","left":"40px","right":"40px"}},"color":{"background":"#f0f6fc"}},"layout":{"type":"constrained","contentSize":"720px"}} -->
+<div class="wp-block-group alignfull has-background" style="background-color:#f0f6fc;padding-top:80px;padding-right:40px;padding-bottom:60px;padding-left:40px"><!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"52px","fontWeight":"900","letterSpacing":"-2px"}}} -->
 <h1 class="wp-block-heading has-text-align-center" style="font-size:52px;font-weight:900;letter-spacing:-2px">⚡ Crawl, Walk, Press</h1>
 <!-- /wp:heading -->
 
@@ -95,195 +106,166 @@
 <p class="has-text-align-center" style="font-size:20px;line-height:1.6">30 days of hands-on exercises to get your editorial and product teams building with the WordPress AI stack — from the Abilities API to Telex.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"margin":{"top":"30px"}}}} -->
-<div class="wp-block-buttons" style="margin-top:30px">
-<!-- wp:button {"style":{"border":{"radius":"20px"},"typography":{"fontSize":"14px"}},"className":"is-style-outline"} -->
+<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"30px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons" style="margin-top:30px"><!-- wp:button {"style":{"border":{"radius":"20px"},"typography":{"fontSize":"14px"}},"className":"is-style-outline"} -->
 <div class="wp-block-button is-style-outline" style="font-size:14px"><a class="wp-block-button__link wp-element-button" style="border-radius:20px">4 weeks · 30 exercises · 10 min/day</a></div>
-<!-- /wp:button -->
-</div>
-<!-- /wp:buttons -->
-
-</div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","bottom":"40px"}}},"layout":{"type":"constrained","contentSize":"900px"}} -->
-<div class="wp-block-group" style="padding-top:50px;padding-bottom:40px">
-
-<!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"30px"}}}} -->
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"50px","bottom":"40px"}}},"layout":{"type":"constrained","contentSize":"900px"}} -->
+<div class="wp-block-group alignwide" style="padding-top:50px;padding-bottom:40px"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"30px"}}}} -->
 <h2 class="wp-block-heading has-text-align-center" style="margin-bottom:30px">The WordPress AI Stack</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"16px"},"spacing":{"margin":{"bottom":"30px"}}}} -->
-<p class="has-text-align-center" style="font-size:16px;margin-bottom:30px">Seven tools that make WordPress AI-native. You'll learn all of them in 30 days.</p>
+<p class="has-text-align-center" style="margin-bottom:30px;font-size:16px">Seven tools that make WordPress AI-native. You'll learn all of them in 30 days.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"24px"}}}} -->
-<div class="wp-block-columns">
-<!-- wp:column -->
-<div class="wp-block-column">
-<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"17px"}}} -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"17px"}}} -->
 <h3 class="wp-block-heading" style="font-size:17px">🔌 Abilities API</h3>
 <!-- /wp:heading -->
+
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
 <p style="font-size:14px">Built into WordPress core since 6.9. A registry of capabilities that AI agents can discover and invoke — the foundation that makes WordPress legible to AI. <a href="https://developer.wordpress.org/apis/abilities-api/">Developer docs →</a></p>
-<!-- /wp:paragraph -->
-</div>
+<!-- /wp:paragraph --></div>
 <!-- /wp:column -->
+
 <!-- wp:column -->
-<div class="wp-block-column">
-<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"17px"}}} -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"17px"}}} -->
 <h3 class="wp-block-heading" style="font-size:17px">🔗 WordPress MCP</h3>
 <!-- /wp:heading -->
+
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
 <p style="font-size:14px">Model Context Protocol connects AI agents like Claude to your WordPress site. Read posts, create drafts, manage content — all through natural language. <a href="https://developer.wordpress.com/docs/mcp/">Setup guide →</a></p>
-<!-- /wp:paragraph -->
-</div>
+<!-- /wp:paragraph --></div>
 <!-- /wp:column -->
+
 <!-- wp:column -->
-<div class="wp-block-column">
-<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"17px"}}} -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"17px"}}} -->
 <h3 class="wp-block-heading" style="font-size:17px">💻 Studio Code</h3>
 <!-- /wp:heading -->
+
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
 <p style="font-size:14px">AI-powered CLI built on Claude Code, specifically tuned for WordPress. Builds themes from descriptions, validates blocks, runs performance audits. <a href="https://wordpress.com/blog/2026/04/27/studio-code-beta/">Learn more →</a></p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:column -->
-</div>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
 <!-- /wp:columns -->
 
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"24px"},"margin":{"top":"16px"}}}} -->
-<div class="wp-block-columns" style="margin-top:16px">
-<!-- wp:column -->
-<div class="wp-block-column">
-<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"17px"}}} -->
+<div class="wp-block-columns" style="margin-top:16px"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"17px"}}} -->
 <h3 class="wp-block-heading" style="font-size:17px">🎮 Playground</h3>
 <!-- /wp:heading -->
+
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
 <p style="font-size:14px">Full WordPress in your browser via WebAssembly. No server, no install, no risk. Has its own MCP server for AI agent integration. Your risk-free testing lab. <a href="https://playground.wordpress.net">Try it →</a></p>
-<!-- /wp:paragraph -->
-</div>
+<!-- /wp:paragraph --></div>
 <!-- /wp:column -->
+
 <!-- wp:column -->
-<div class="wp-block-column">
-<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"17px"}}} -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"17px"}}} -->
 <h3 class="wp-block-heading" style="font-size:17px">📊 WordPress AI Experiments plugin</h3>
 <!-- /wp:heading -->
+
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
 <p style="font-size:14px">WordPress's AI-powered content toolkit. AI-powered title generation, excerpt suggestions, alt text generation, and content optimization — all inside the editor. <a href="https://github.com/WordPress/ai">Learn more →</a></p>
-<!-- /wp:paragraph -->
-</div>
+<!-- /wp:paragraph --></div>
 <!-- /wp:column -->
+
 <!-- wp:column -->
-<div class="wp-block-column">
-<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"17px"}}} -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"17px"}}} -->
 <h3 class="wp-block-heading" style="font-size:17px">🧪 Telex</h3>
 <!-- /wp:heading -->
+
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
 <p style="font-size:14px">Automattic AI Labs' natural language builder. Describe a WordPress block or theme in plain English — Telex generates it as a downloadable plugin or theme. <a href="https://telex.automattic.ai">Try it →</a></p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:column -->
-</div>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
 <!-- /wp:columns -->
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"16px"}}}} -->
-<div class="wp-block-columns" style="margin-top:16px">
-<!-- wp:column {"width":"33.33%"} -->
-<div class="wp-block-column" style="flex-basis:33.33%">
-<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"17px"}}} -->
+<div class="wp-block-columns" style="margin-top:16px"><!-- wp:column {"width":"33.33%"} -->
+<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"17px"}}} -->
 <h3 class="wp-block-heading" style="font-size:17px">🤖 AI Client (WP 7.0)</h3>
 <!-- /wp:heading -->
+
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
 <p style="font-size:14px">Provider-agnostic AI SDK shipping in WordPress 7.0 core (May 2026). Lets any plugin call OpenAI, Claude, or Gemini through a single API. <a href="https://make.wordpress.org/core/2026/03/24/introducing-the-ai-client-in-wordpress-7-0/">Announcement →</a></p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:column -->
-</div>
-<!-- /wp:columns -->
-
-</div>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
 <!-- /wp:group -->
 
 <!-- wp:separator {"style":{"spacing":{"margin":{"top":"20px","bottom":"20px"}}}} -->
 <hr class="wp-block-separator has-alpha-channel-opacity" style="margin-top:20px;margin-bottom:20px"/>
 <!-- /wp:separator -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"30px","bottom":"50px"}}},"layout":{"type":"constrained","contentSize":"900px"}} -->
-<div class="wp-block-group" style="padding-top:30px;padding-bottom:50px">
-
-<!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"12px"}}}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"30px","bottom":"50px"}}},"layout":{"type":"constrained","contentSize":"900px"}} -->
+<div class="wp-block-group alignfull" style="padding-top:30px;padding-bottom:50px"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"12px"}}}} -->
 <h2 class="wp-block-heading has-text-align-center" style="margin-bottom:12px">Your 30 Days of Training</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"16px"},"spacing":{"margin":{"bottom":"30px"}}}} -->
-<p class="has-text-align-center" style="font-size:16px;margin-bottom:30px">Each week builds on the last. Start with installation, end with a team demo.</p>
+<p class="has-text-align-center" style="margin-bottom:30px;font-size:16px">Each week builds on the last. Start with installation, end with a team demo.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"16px"}}}} -->
-<div class="wp-block-columns">
-<!-- wp:column {"style":{"border":{"width":"2px","color":"#0073aa","radius":"12px"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"20px","right":"20px"}}}} -->
-<div class="wp-block-column has-border-color" style="border-color:#0073aa;border-width:2px;border-radius:12px;padding-top:24px;padding-right:20px;padding-bottom:24px;padding-left:20px">
-<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"16px"},"color":{"text":"#0073aa"}}} -->
+<div class="wp-block-columns"><!-- wp:column {"style":{"border":{"width":"2px","color":"#0073aa","radius":"12px"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"20px","right":"20px"}}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#0073aa;border-width:2px;border-radius:12px;padding-top:24px;padding-right:20px;padding-bottom:24px;padding-left:20px"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"16px"},"color":{"text":"#0073aa"}}} -->
 <h3 class="wp-block-heading has-text-color" style="color:#0073aa;font-size:16px"><a href="http://localhost:8886/week-1-get-the-stack/">Week 1: Get the Stack →</a></h3>
 <!-- /wp:heading -->
+
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
-<p style="font-size:14px">Install &amp; explore Playground, Studio Code, Telex, Claude + MCP, and WordPress AI Experiments plugin. Understand the Abilities API.</p>
-<!-- /wp:paragraph -->
-</div>
+<p style="font-size:14px">Install &amp; explore Playground, Studio CLI/Code, Telex, Claude + MCP, and WordPress AI Experiments plugin. Finish with a toolkit map and safe testing setup.</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:column -->
+
 <!-- wp:column {"style":{"border":{"width":"2px","color":"#9b51e0","radius":"12px"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"20px","right":"20px"}}}} -->
-<div class="wp-block-column has-border-color" style="border-color:#9b51e0;border-width:2px;border-radius:12px;padding-top:24px;padding-right:20px;padding-bottom:24px;padding-left:20px">
-<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"16px"},"color":{"text":"#9b51e0"}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#9b51e0;border-width:2px;border-radius:12px;padding-top:24px;padding-right:20px;padding-bottom:24px;padding-left:20px"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"16px"},"color":{"text":"#9b51e0"}}} -->
 <h3 class="wp-block-heading has-text-color" style="color:#9b51e0;font-size:16px"><a href="http://localhost:8886/week-2-connect-create/">Week 2: Connect &amp; Create →</a></h3>
 <!-- /wp:heading -->
+
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
-<p style="font-size:14px">Wire the tools into your editorial workflow. Create content, metadata, and newsletters through MCP.</p>
-<!-- /wp:paragraph -->
-</div>
+<p style="font-size:14px">Wire the tools into editorial workflows. Finish with a publication profile, reusable prompts, newsletter draft, and metadata workflow.</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:column -->
+
 <!-- wp:column {"style":{"border":{"width":"2px","color":"#00a32a","radius":"12px"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"20px","right":"20px"}}}} -->
-<div class="wp-block-column has-border-color" style="border-color:#00a32a;border-width:2px;border-radius:12px;padding-top:24px;padding-right:20px;padding-bottom:24px;padding-left:20px">
-<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"16px"},"color":{"text":"#00a32a"}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#00a32a;border-width:2px;border-radius:12px;padding-top:24px;padding-right:20px;padding-bottom:24px;padding-left:20px"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"16px"},"color":{"text":"#00a32a"}}} -->
 <h3 class="wp-block-heading has-text-color" style="color:#00a32a;font-size:16px"><a href="http://localhost:8886/week-3-editorial-workflows/">Week 3: Editorial Workflows →</a></h3>
 <!-- /wp:heading -->
+
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
-<p style="font-size:14px">Build repeatable workflows: content repurposing, competitive intel, performance audits, editorial planning.</p>
-<!-- /wp:paragraph -->
-</div>
+<p style="font-size:14px">Build repeatable operations: content repurposing, taxonomy cleanup, performance audits, editorial planning, and internal links.</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:column -->
+
 <!-- wp:column {"style":{"border":{"width":"2px","color":"#d63638","radius":"12px"},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"20px","right":"20px"}}}} -->
-<div class="wp-block-column has-border-color" style="border-color:#d63638;border-width:2px;border-radius:12px;padding-top:24px;padding-right:20px;padding-bottom:24px;padding-left:20px">
-<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"16px"},"color":{"text":"#d63638"}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#d63638;border-width:2px;border-radius:12px;padding-top:24px;padding-right:20px;padding-bottom:24px;padding-left:20px"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"16px"},"color":{"text":"#d63638"}}} -->
 <h3 class="wp-block-heading has-text-color" style="color:#d63638;font-size:16px"><a href="http://localhost:8886/week-4-ship-scale/">Week 4: Ship &amp; Scale →</a></h3>
 <!-- /wp:heading -->
-<!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
-<p style="font-size:14px">Write your AI policy, build the team playbook, measure impact, and deliver your demo.</p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:column -->
-</div>
-<!-- /wp:columns -->
 
-</div>
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
+<p style="font-size:14px">Package the work for your team: policy, playbook, prompt library, impact report, and live demo.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"30px","bottom":"30px"}},"color":{"background":"#f9f9f9"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-background" style="background-color:#f9f9f9;padding-top:30px;padding-bottom:30px">
-<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"14px"}}} -->
-<p class="has-text-align-center" style="font-size:14px">Built by <strong>WordPress</strong> to help editorial and product teams master the WordPress AI stack. Questions? Visit <a href="https://wordpress.com">WordPress.com</a> or <a href="https://pressable.com">Pressable</a> to get started. | <a href="http://localhost:8886/faq/">FAQ →</a></p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:group -->
-
-
-<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"0.8rem"},"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}}} --><p class="has-text-align-center" style="font-size:0.8rem">Created by <strong>Alan Smodic</strong></p><!-- /wp:paragraph -->]]></content:encoded>
+<div class="wp-block-group has-background" style="background-color:#f9f9f9;padding-top:30px;padding-bottom:30px"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"14px"}}} -->
+<p class="has-text-align-center" style="font-size:14px">Built with <strong>WordPress</strong> to help editorial and product teams master the WordPress AI stack. Questions? <a href="http://localhost:8886/faq/">FAQ →</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
   <wp:post_id>4</wp:post_id>
   <wp:post_date>2026-04-30 15:23:56</wp:post_date>
   <wp:post_date_gmt>2026-04-30 15:23:56</wp:post_date_gmt>
-  <wp:post_modified>2026-05-02 18:09:13</wp:post_modified>
-  <wp:post_modified_gmt>2026-05-02 18:09:13</wp:post_modified_gmt>
+  <wp:post_modified>2026-05-03 16:04:40</wp:post_modified>
+  <wp:post_modified_gmt>2026-05-03 16:04:40</wp:post_modified_gmt>
   <wp:comment_status>closed</wp:comment_status>
   <wp:ping_status>closed</wp:ping_status>
   <wp:post_name>home</wp:post_name>
@@ -375,7 +357,7 @@
 <!-- wp:group {"style":{"border":{"bottom":{"color":"#eeeeee","width":"1px"}},"spacing":{"padding":{"top":"16px","bottom":"16px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group" style="border-bottom-color:#eeeeee;border-bottom-width:1px;padding-top:16px;padding-bottom:16px">
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"15px"}}} -->
-<p style="font-size:15px"><strong>Day 5</strong> — <a href="http://localhost:8886/week-1-get-the-stack/day-5-explore-parse-ly-ai-in-the-editor/">Explore WordPress AI Experiments plugin</a></p>
+<p style="font-size:15px"><strong>Day 5</strong> — <a href="http://localhost:8886/week-1-get-the-stack/day-5-explore-wordpress-ai-experiments-plugin/">Explore WordPress AI Experiments plugin</a></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"13px"},"color":{"text":"#666666"}}} -->
 <p class="has-text-color" style="color:#666666;font-size:13px">Content intelligence, headlines, and analytics inside the editor</p>
@@ -440,6 +422,15 @@
 <h3 class="wp-block-heading">What you need</h3>
 <!-- /wp:heading -->
 
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Access checklist</h3>
+<!-- /wp:heading -->
+
+<!-- wp:table {"style":{"typography":{"fontSize":"14px"}}} -->
+<figure class="wp-block-table" style="font-size:14px"><table><thead><tr><th>Need</th><th>Required?</th><th>Notes</th></tr></thead><tbody><tr><td>AI assistant account</td><td>Required</td><td>Claude Pro/Team is used in examples; ChatGPT Plus, Gemini Advanced, Cursor, or another MCP-capable assistant can work.</td></tr><tr><td>WordPress site</td><td>Required</td><td>Use WordPress.com, Pressable, self-hosted WordPress, Studio CLI, or Playground depending on the exercise.</td></tr><tr><td>WordPress.com account</td><td>Recommended</td><td>Needed for the easiest MCP path and for Studio preview/auth flows.</td></tr><tr><td>Node.js 18+</td><td>Required for Studio CLI</td><td>Studio CLI and many local development workflows need Node available in Terminal.</td></tr><tr><td>Production write access</td><td>Optional</td><td>Use drafts and test sites first. You do not need production access to learn the workflows.</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+
 <!-- wp:heading {"level":4} -->
 <h4 class="wp-block-heading">1. A paid AI account</h4>
 <!-- /wp:heading -->
@@ -463,7 +454,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Confirm you can log into your <strong>WordPress AI plugin dashboard</strong>. You'll need this for WordPress AI Experiments plugin features starting <a href="http://localhost:8886/week-1-get-the-stack/day-5-explore-parse-ly-ai-in-the-editor/">Day 5</a>. If you don't have access, check the plugin's GitHub page — they can set you up in minutes.</p>
+<p>Confirm you can log into your <strong>WordPress AI plugin dashboard</strong>. You'll need this for WordPress AI Experiments plugin features starting <a href="http://localhost:8886/week-1-get-the-stack/day-5-explore-wordpress-ai-experiments-plugin/">Day 5</a>. If you don't have access, check the plugin's GitHub page — they can set you up in minutes.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":4} -->
@@ -670,13 +661,13 @@ Explain: What is WordPress Playground technically (WebAssembly, client-side)? Wh
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Studio CLI (<code>wp-studio</code>) runs WordPress locally using the same Playground engine you used yesterday, but with persistence, version control, and a proper CLI interface. No Docker, no MAMP, no Apache config files. One command and you have a running WordPress site.</p>
+<p>Studio CLI runs WordPress locally using the same Playground engine you used yesterday, but with persistence, version control, and a proper CLI interface. No Docker, no MAMP, no Apache config files. One command and you have a running WordPress site.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","bottom":"20px","left":"24px","right":"24px"}},"color":{"background":"#f3f0ff"},"border":{"left":{"color":"#7c3aed","width":"4px"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-background" style="border-left-color:#7c3aed;border-left-width:4px;background-color:#f3f0ff;padding-top:20px;padding-right:24px;padding-bottom:20px;padding-left:24px">
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
-<p style="font-size:14px">🔧 <strong>Tool: Studio CLI (wp-studio)</strong> — Automattic's command-line tool for local WordPress development. Built on WordPress Playground. Install via <code>npm install -g wp-studio</code>. Docs: <a href="https://www.npmjs.com/package/wp-studio">npmjs.com/package/wp-studio</a></p>
+<p style="font-size:14px">🔧 <strong>Tool: Studio CLI</strong> — Automattic's command-line tool for local WordPress development. Built on WordPress Playground. Install it from Studio Desktop settings or via <code>npm install -g wp-studio</code>. Docs: <a href="https://developer.wordpress.com/docs/developer-tools/studio/cli/">developer.wordpress.com/docs/developer-tools/studio/cli</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -686,11 +677,14 @@ Explain: What is WordPress Playground technically (WebAssembly, client-side)? Wh
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>You need Node.js 18+ installed. If you don't have it, grab it from <a href="https://nodejs.org/">nodejs.org</a>. Then install Studio CLI globally:</p>
+<p>Recommended path: install the <a href="https://developer.wordpress.com/studio/">Studio desktop app</a>, then enable <strong>Studio CLI for terminal</strong> from Studio settings. If you prefer npm, you can install the CLI globally instead:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code>npm install -g wp-studio</code></pre>
+<pre class="wp-block-code"><code># Recommended: Studio Desktop → Settings → Studio CLI for terminal
+
+# Alternate npm install:
+npm install -g wp-studio</code></pre>
 <!-- /wp:code -->
 
 <!-- wp:paragraph -->
@@ -1067,6 +1061,13 @@ The design should feel like a premium news publication — think NYT or BBC cove
 <!-- /wp:paragraph --></blockquote>
 <!-- /wp:quote -->
 
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","bottom":"20px","left":"24px","right":"24px"}},"color":{"background":"#fef3c7"},"border":{"left":{"color":"#d97706","width":"4px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-background" style="border-left-color:#d97706;border-left-width:4px;background-color:#fef3c7;padding-top:20px;padding-right:24px;padding-bottom:20px;padding-left:24px">
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"}}} -->
+<p style="font-size:14px">💡 <strong>Operating rules:</strong> Connect MCP to a test site first, create drafts before publishing, review every AI-generated change, and avoid bulk updates on production until you have a backup or rollback plan. The power move is safe iteration, not surprise automation.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">Test the connection</h3>
 <!-- /wp:heading -->
@@ -1134,7 +1135,7 @@ The design should feel like a premium news publication — think NYT or BBC cove
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"30px"}}}} -->
-<p style="margin-top:30px"><a href="http://localhost:8886/week-1-get-the-stack/day-3-build-a-block-with-telex-no-code-required/">← Day 3</a> · <strong>Next:</strong> <a href="http://localhost:8886/week-1-get-the-stack/day-5-explore-parse-ly-ai-in-the-editor/">Day 5: Explore WordPress AI Experiments plugin →</a></p>
+<p style="margin-top:30px"><a href="http://localhost:8886/week-1-get-the-stack/day-3-build-a-block-with-telex-no-code-required/">← Day 3</a> · <strong>Next:</strong> <a href="http://localhost:8886/week-1-get-the-stack/day-5-explore-wordpress-ai-experiments-plugin/">Day 5: Explore WordPress AI Experiments plugin →</a></p>
 <!-- /wp:paragraph -->
 ]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1155,10 +1156,10 @@ The design should feel like a premium news publication — think NYT or BBC cove
 </item>
 <item>
   <title><![CDATA[Day 5: Explore the WordPress AI Experiments Plugin]]></title>
-  <link>http://localhost:8886/week-1-get-the-stack/day-5-explore-parse-ly-ai-in-the-editor/</link>
+  <link>http://localhost:8886/week-1-get-the-stack/day-5-explore-wordpress-ai-experiments-plugin/</link>
   <pubDate>Thu, 30 Apr 2026 15:23:56 +0000</pubDate>
   <dc:creator/>
-  <guid isPermaLink="false">http://localhost:8886/week-1-get-the-stack/day-5-explore-parse-ly-ai-in-the-editor/</guid>
+  <guid isPermaLink="false">http://localhost:8886/week-1-get-the-stack/day-5-explore-wordpress-ai-experiments-plugin/</guid>
   <description/>
   <content:encoded><![CDATA[<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px","left":"30px","right":"30px"}},"color":{"background":"#eef6ee"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-background" style="background-color:#eef6ee;padding-top:40px;padding-right:30px;padding-bottom:40px;padding-left:30px">
@@ -1304,7 +1305,7 @@ The design should feel like a premium news publication — think NYT or BBC cove
   <wp:post_modified_gmt>2026-05-02 17:29:01</wp:post_modified_gmt>
   <wp:comment_status>closed</wp:comment_status>
   <wp:ping_status>closed</wp:ping_status>
-  <wp:post_name>day-5-explore-parse-ly-ai-in-the-editor</wp:post_name>
+  <wp:post_name>day-5-explore-wordpress-ai-experiments-plugin</wp:post_name>
   <wp:status>publish</wp:status>
   <wp:post_parent>5</wp:post_parent>
   <wp:menu_order>5</wp:menu_order>
@@ -1473,7 +1474,7 @@ studio wp --path ~/Studio/my-newsroom eval 'print_r(wp_get_registered_abilities(
 <!-- /wp:group -->
 
 <!-- wp:paragraph -->
-<p><a href="http://localhost:8886/week-1-get-the-stack/day-5-explore-parse-ly-ai-in-the-editor/">← Day 5: WordPress AI Experiments plugin</a> · <a href="http://localhost:8886/week-1-get-the-stack/day-7-week-1-review-your-toolkit-map/">Day 7: Week 1 Review →</a></p>
+<p><a href="http://localhost:8886/week-1-get-the-stack/day-5-explore-wordpress-ai-experiments-plugin/">← Day 5: WordPress AI Experiments plugin</a> · <a href="http://localhost:8886/week-1-get-the-stack/day-7-week-1-review-your-toolkit-map/">Day 7: Week 1 Review →</a></p>
 <!-- /wp:paragraph -->]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
   <wp:post_id>12</wp:post_id>
@@ -1580,7 +1581,7 @@ studio wp --path ~/Studio/my-newsroom eval 'print_r(wp_get_registered_abilities(
 <li>Telex (<a href="http://localhost:8886/week-1-get-the-stack/day-3-build-a-block-with-telex-no-code-required/">Day 3</a>)</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li>WordPress AI Experiments plugin features (<a href="http://localhost:8886/week-1-get-the-stack/day-5-explore-parse-ly-ai-in-the-editor/">Day 5</a>)</li>
+<li>WordPress AI Experiments plugin features (<a href="http://localhost:8886/week-1-get-the-stack/day-5-explore-wordpress-ai-experiments-plugin/">Day 5</a>)</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li>Abilities API concepts (<a href="http://localhost:8886/week-1-get-the-stack/day-6-understand-the-abilities-api/">Day 6</a>)</li>
@@ -1614,6 +1615,13 @@ studio wp --path ~/Studio/my-newsroom eval 'print_r(wp_get_registered_abilities(
 <!-- /wp:columns -->
 
 <!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Save These Artifacts</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><li>Your toolkit map: accounts, tools, and where each one fits</li><li>A working local Studio site or Playground sandbox</li><li>One Telex-built block idea your team could actually use</li><li>A safe MCP test draft, not a production publish</li></ul>
+<!-- /wp:list -->
+<!-- wp:heading {"level":2} -->
 <h2 class="wp-block-heading">How the Tools Connect</h2>
 <!-- /wp:heading -->
 
@@ -1624,7 +1632,7 @@ studio wp --path ~/Studio/my-newsroom eval 'print_r(wp_get_registered_abilities(
 <!-- wp:code -->
 <pre class="wp-block-code"><code>┌──────────────────────────────────────────┐
 │              AI Agents                    │
-│  (Claude Desktop, Studio Code, Sage)      │
+│  (Claude Desktop, Studio Code, AI tools)  │
 └───────────┬──────────────────────────────┘
             │ MCP Protocol
             ▼
@@ -1793,7 +1801,7 @@ studio wp --path ~/Studio/my-newsroom eval 'print_r(wp_get_registered_abilities(
 <!-- wp:group {"style":{"border":{"bottom":{"color":"#eeeeee","width":"1px"}},"spacing":{"padding":{"top":"14px","bottom":"14px"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="border-bottom-color:#eeeeee;border-bottom-width:1px;padding-top:14px;padding-bottom:14px">
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"15px"}}} -->
-<p style="font-size:15px"><strong>Day 13</strong> — <a href="http://localhost:8886/week-2-connect-create/day-13-analytics-driven-editorial-with-parse-ly-claude/">Analytics-Driven Editorial with WordPress AI plugin + Claude</a><br><span style="font-size:13px;color:#666">Turn performance data into editorial strategy</span></p>
+<p style="font-size:15px"><strong>Day 13</strong> — <a href="http://localhost:8886/week-2-connect-create/day-13-ai-powered-editorial-analysis-with-claude/">Analytics-Driven Editorial with WordPress AI plugin + Claude</a><br><span style="font-size:13px;color:#666">Turn performance data into editorial strategy</span></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -2432,7 +2440,7 @@ Design for trust and transparency — this is about showing our work.</code></pr
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"30px"}}}} -->
-<p style="margin-top:30px"><a href="http://localhost:8886/week-2-connect-create/day-11-create-a-content-package-via-mcp/">← Day 11</a> · <strong>Next:</strong> <a href="http://localhost:8886/week-2-connect-create/day-13-analytics-driven-editorial-with-parse-ly-claude/">Day 13: Analytics-Driven Editorial →</a></p>
+<p style="margin-top:30px"><a href="http://localhost:8886/week-2-connect-create/day-11-create-a-content-package-via-mcp/">← Day 11</a> · <strong>Next:</strong> <a href="http://localhost:8886/week-2-connect-create/day-13-ai-powered-editorial-analysis-with-claude/">Day 13: Analytics-Driven Editorial →</a></p>
 <!-- /wp:paragraph -->
 ]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2453,10 +2461,10 @@ Design for trust and transparency — this is about showing our work.</code></pr
 </item>
 <item>
   <title><![CDATA[Day 13: AI-Powered Editorial Analysis with Claude]]></title>
-  <link>http://localhost:8886/week-2-connect-create/day-13-analytics-driven-editorial-with-parse-ly-claude/</link>
+  <link>http://localhost:8886/week-2-connect-create/day-13-ai-powered-editorial-analysis-with-claude/</link>
   <pubDate>Thu, 30 Apr 2026 15:23:56 +0000</pubDate>
   <dc:creator/>
-  <guid isPermaLink="false">http://localhost:8886/week-2-connect-create/day-13-analytics-driven-editorial-with-parse-ly-claude/</guid>
+  <guid isPermaLink="false">http://localhost:8886/week-2-connect-create/day-13-ai-powered-editorial-analysis-with-claude/</guid>
   <description/>
   <content:encoded><![CDATA[<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px","left":"30px","right":"30px"}},"color":{"background":"#eef6ee"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-background" style="background-color:#eef6ee;padding-top:40px;padding-right:30px;padding-bottom:40px;padding-left:30px">
@@ -2564,7 +2572,7 @@ in a table.</code></pre>
   <wp:post_modified_gmt>2026-05-02 17:28:30</wp:post_modified_gmt>
   <wp:comment_status>closed</wp:comment_status>
   <wp:ping_status>closed</wp:ping_status>
-  <wp:post_name>day-13-analytics-driven-editorial-with-parse-ly-claude</wp:post_name>
+  <wp:post_name>day-13-ai-powered-editorial-analysis-with-claude</wp:post_name>
   <wp:status>publish</wp:status>
   <wp:post_parent>14</wp:post_parent>
   <wp:menu_order>5</wp:menu_order>
@@ -2639,7 +2647,7 @@ in a table.</code></pre>
 <li><strong>Custom editorial blocks</strong> — Breaking news, reporter's notebook, source cards via Telex (<a href="http://localhost:8886/week-2-connect-create/day-12-build-custom-editorial-blocks-with-telex/">Day 12</a>)</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><strong>Data-driven editorial</strong> — Topic gaps, headline patterns, pre-publish checks (<a href="http://localhost:8886/week-2-connect-create/day-13-analytics-driven-editorial-with-parse-ly-claude/">Day 13</a>)</li>
+<li><strong>Data-driven editorial</strong> — Topic gaps, headline patterns, pre-publish checks (<a href="http://localhost:8886/week-2-connect-create/day-13-ai-powered-editorial-analysis-with-claude/">Day 13</a>)</li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
@@ -2649,6 +2657,13 @@ in a table.</code></pre>
 </div>
 <!-- /wp:columns -->
 
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Save These Artifacts</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><li>A publication profile Claude can reuse</li><li>A metadata audit prompt and review checklist</li><li>A newsletter draft workflow</li><li>One content package template</li><li>One custom editorial block brief</li></ul>
+<!-- /wp:list -->
 <!-- wp:heading {"level":2} -->
 <h2 class="wp-block-heading">The Time Savings</h2>
 <!-- /wp:heading -->
@@ -2705,7 +2720,7 @@ in a table.</code></pre>
 <!-- /wp:group -->
 
 <!-- wp:paragraph -->
-<p><a href="http://localhost:8886/week-2-connect-create/day-13-analytics-driven-editorial-with-parse-ly-claude/">← Day 13: Analytics-Driven Editorial</a> · <a href="http://localhost:8886/week-3-editorial-workflows/day-15-one-article-five-platforms-via-mcp/">Day 15: One Article, Five Platforms →</a></p>
+<p><a href="http://localhost:8886/week-2-connect-create/day-13-ai-powered-editorial-analysis-with-claude/">← Day 13: Analytics-Driven Editorial</a> · <a href="http://localhost:8886/week-3-editorial-workflows/day-15-one-article-five-platforms-via-mcp/">Day 15: One Article, Five Platforms →</a></p>
 <!-- /wp:paragraph -->]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
   <wp:post_id>21</wp:post_id>
@@ -2785,7 +2800,7 @@ in a table.</code></pre>
 <!-- wp:group {"style":{"border":{"bottom":{"color":"#eeeeee","width":"1px"}},"spacing":{"padding":{"top":"14px","bottom":"14px"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="border-bottom-color:#eeeeee;border-bottom-width:1px;padding-top:14px;padding-bottom:14px">
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"15px"}}} -->
-<p style="font-size:15px"><strong>Day 20</strong> — <a href="http://localhost:8886/week-3-editorial-workflows/day-20-engagement-boost-ai-powered-internal-linking/">AI-Powered Internal Linking</a><br><span style="font-size:13px;color:#666">WordPress AI plugin + Claude for strategic cross-linking</span></p>
+<p style="font-size:15px"><strong>Day 20</strong> — <a href="http://localhost:8886/week-3-editorial-workflows/day-20-ai-powered-internal-linking-with-mcp/">AI-Powered Internal Linking</a><br><span style="font-size:13px;color:#666">WordPress AI plugin + Claude for strategic cross-linking</span></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -3362,7 +3377,7 @@ DESIGN:
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"30px"}}}} -->
-<p style="margin-top:30px"><a href="http://localhost:8886/week-3-editorial-workflows/day-18-build-an-editorial-calendar-via-mcp/">← Day 18</a> · <strong>Next:</strong> <a href="http://localhost:8886/week-3-editorial-workflows/day-20-engagement-boost-ai-powered-internal-linking/">Day 20: AI-Powered Internal Linking →</a></p>
+<p style="margin-top:30px"><a href="http://localhost:8886/week-3-editorial-workflows/day-18-build-an-editorial-calendar-via-mcp/">← Day 18</a> · <strong>Next:</strong> <a href="http://localhost:8886/week-3-editorial-workflows/day-20-ai-powered-internal-linking-with-mcp/">Day 20: AI-Powered Internal Linking →</a></p>
 <!-- /wp:paragraph -->
 ]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3383,10 +3398,10 @@ DESIGN:
 </item>
 <item>
   <title><![CDATA[Day 20: AI-Powered Internal Linking with MCP]]></title>
-  <link>http://localhost:8886/week-3-editorial-workflows/day-20-engagement-boost-ai-powered-internal-linking/</link>
+  <link>http://localhost:8886/week-3-editorial-workflows/day-20-ai-powered-internal-linking-with-mcp/</link>
   <pubDate>Thu, 30 Apr 2026 15:23:56 +0000</pubDate>
   <dc:creator/>
-  <guid isPermaLink="false">http://localhost:8886/week-3-editorial-workflows/day-20-engagement-boost-ai-powered-internal-linking/</guid>
+  <guid isPermaLink="false">http://localhost:8886/week-3-editorial-workflows/day-20-ai-powered-internal-linking-with-mcp/</guid>
   <description/>
   <content:encoded><![CDATA[<!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px","left":"30px","right":"30px"}},"color":{"background":"#eef6ee"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-background" style="background-color:#eef6ee;padding-top:40px;padding-right:30px;padding-bottom:40px;padding-left:30px">
@@ -3495,7 +3510,7 @@ to readers and search engines right now.</code></pre>
   <wp:post_modified_gmt>2026-05-02 17:28:30</wp:post_modified_gmt>
   <wp:comment_status>closed</wp:comment_status>
   <wp:ping_status>closed</wp:ping_status>
-  <wp:post_name>day-20-engagement-boost-ai-powered-internal-linking</wp:post_name>
+  <wp:post_name>day-20-ai-powered-internal-linking-with-mcp</wp:post_name>
   <wp:status>publish</wp:status>
   <wp:post_parent>22</wp:post_parent>
   <wp:menu_order>5</wp:menu_order>
@@ -3564,7 +3579,7 @@ to readers and search engines right now.</code></pre>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Run AI-powered suggestions or the MCP linking workflow (<a href="http://localhost:8886/week-3-editorial-workflows/day-20-engagement-boost-ai-powered-internal-linking/">Day 20</a>) on your 3 newest articles.</p>
+<p>Run AI-powered suggestions or the MCP linking workflow (<a href="http://localhost:8886/week-3-editorial-workflows/day-20-ai-powered-internal-linking-with-mcp/">Day 20</a>) on your 3 newest articles.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -3597,11 +3612,18 @@ to readers and search engines right now.</code></pre>
 <li><strong>Theme design</strong> — editorial themes from descriptions with Telex (<a href="http://localhost:8886/week-3-editorial-workflows/day-19-build-a-custom-theme-with-telex/">Day 19</a>)</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><strong>Internal linking at scale</strong> — bulk link analysis and insertion (<a href="http://localhost:8886/week-3-editorial-workflows/day-20-engagement-boost-ai-powered-internal-linking/">Day 20</a>)</li>
+<li><strong>Internal linking at scale</strong> — bulk link analysis and insertion (<a href="http://localhost:8886/week-3-editorial-workflows/day-20-ai-powered-internal-linking-with-mcp/">Day 20</a>)</li>
 <!-- /wp:list-item -->
 </ul>
 <!-- /wp:list -->
 
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Save These Artifacts</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><li>Your 15-minute editorial sprint checklist</li><li>A taxonomy cleanup plan</li><li>A performance audit summary</li><li>An editorial calendar prompt</li><li>An internal linking workflow your team can repeat</li></ul>
+<!-- /wp:list -->
 <!-- wp:heading {"level":2} -->
 <h2 class="wp-block-heading">What's Coming in Week 4</h2>
 <!-- /wp:heading -->
@@ -3642,7 +3664,7 @@ to readers and search engines right now.</code></pre>
 <!-- /wp:group -->
 
 <!-- wp:paragraph -->
-<p><a href="http://localhost:8886/week-3-editorial-workflows/day-20-engagement-boost-ai-powered-internal-linking/">← Day 20: Internal Linking</a> · <a href="http://localhost:8886/week-4-ship-scale/day-22-write-your-ai-editorial-policy/">Day 22: AI Editorial Policy →</a></p>
+<p><a href="http://localhost:8886/week-3-editorial-workflows/day-20-ai-powered-internal-linking-with-mcp/">← Day 20: Internal Linking</a> · <a href="http://localhost:8886/week-4-ship-scale/day-22-write-your-ai-editorial-policy/">Day 22: AI Editorial Policy →</a></p>
 <!-- /wp:paragraph -->]]></content:encoded>
   <excerpt:encoded><![CDATA[]]></excerpt:encoded>
   <wp:post_id>29</wp:post_id>
@@ -4013,7 +4035,7 @@ Create this as a draft page titled "AI Prompt Library".</code></pre>
 <pre class="wp-block-code"><code>Create 3 quick-start guides as draft pages:
 
 1. **"AI Quick Start for Writers"** (5 min read)
-   - How to use Title Suggestions and Sage in the editor
+   - How to use title suggestions and AI content features in the editor
    - 3 prompts for improving drafts
    - The Green/Yellow/Red policy summary
 
@@ -4645,6 +4667,13 @@ and capability checks.</code></pre>
 <p>30 days ago, the WordPress AI stack was a list of unfamiliar tools. Now you've used every one of them, built real workflows, measured the impact, written a policy, created a playbook, and taught a teammate. These last three days are about putting it all together.</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Your Final Package</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><li>AI editorial policy</li><li>Team playbook and prompt library</li><li>Role-specific quick-start guides</li><li>Impact report with time-savings and quality metrics</li><li>Demo script and follow-up plan</li></ul>
+<!-- /wp:list -->
 <!-- wp:heading {"level":2} -->
 <h2 class="wp-block-heading">Day 28: Deliver Your Demo</h2>
 <!-- /wp:heading -->
@@ -5664,6 +5693,139 @@ and capability checks.</code></pre>
   <wp:post_type>page</wp:post_type>
   <wp:post_password/>
   <wp:is_sticky>0</wp:is_sticky>
+</item>
+<item>
+  <title><![CDATA[Custom Styles]]></title>
+  <link>http://localhost:8886/2026/05/03/wp-global-styles-cw5k/</link>
+  <pubDate>Sun, 03 May 2026 15:40:51 +0000</pubDate>
+  <dc:creator/>
+  <guid isPermaLink="false">http://localhost:8886/2026/05/03/wp-global-styles-cw5k/</guid>
+  <description/>
+  <content:encoded><![CDATA[{"version": 3, "isGlobalStylesUserThemeJSON": true }]]></content:encoded>
+  <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+  <wp:post_id>126</wp:post_id>
+  <wp:post_date>2026-05-03 15:40:51</wp:post_date>
+  <wp:post_date_gmt>2026-05-03 15:40:51</wp:post_date_gmt>
+  <wp:post_modified>2026-05-03 15:40:51</wp:post_modified>
+  <wp:post_modified_gmt>2026-05-03 15:40:51</wp:post_modified_gmt>
+  <wp:comment_status>closed</wp:comment_status>
+  <wp:ping_status>closed</wp:ping_status>
+  <wp:post_name>wp-global-styles-cw5k</wp:post_name>
+  <wp:status>publish</wp:status>
+  <wp:post_parent>0</wp:post_parent>
+  <wp:menu_order>0</wp:menu_order>
+  <wp:post_type>wp_global_styles</wp:post_type>
+  <wp:post_password/>
+  <wp:is_sticky>0</wp:is_sticky>
+  <category domain="wp_theme" nicename="cw5k"><![CDATA[cw5k]]></category>
+</item>
+<item>
+  <title><![CDATA[cwp-stepdots-purple]]></title>
+  <link>http://localhost:8886/cwp-stepdots-purple/</link>
+  <pubDate>Sun, 03 May 2026 15:59:40 +0000</pubDate>
+  <dc:creator/>
+  <guid isPermaLink="false">http://localhost:8886/wp-content/uploads/2026/05/cwp-stepdots-purple.webp</guid>
+  <description/>
+  <content:encoded><![CDATA[]]></content:encoded>
+  <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+  <wp:post_id>128</wp:post_id>
+  <wp:post_date>2026-05-03 15:59:40</wp:post_date>
+  <wp:post_date_gmt>2026-05-03 15:59:40</wp:post_date_gmt>
+  <wp:post_modified>2026-05-03 15:59:40</wp:post_modified>
+  <wp:post_modified_gmt>2026-05-03 15:59:40</wp:post_modified_gmt>
+  <wp:comment_status>open</wp:comment_status>
+  <wp:ping_status>closed</wp:ping_status>
+  <wp:post_name>cwp-stepdots-purple</wp:post_name>
+  <wp:status>inherit</wp:status>
+  <wp:post_parent>0</wp:post_parent>
+  <wp:menu_order>0</wp:menu_order>
+  <wp:post_type>attachment</wp:post_type>
+  <wp:post_password/>
+  <wp:is_sticky>0</wp:is_sticky>
+  <wp:attachment_url>http://localhost:8886/wp-content/uploads/2026/05/cwp-stepdots-purple.webp</wp:attachment_url>
+  <wp:postmeta>
+    <wp:meta_key>_wp_attached_file</wp:meta_key>
+    <wp:meta_value><![CDATA[2026/05/cwp-stepdots-purple.webp]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+    <wp:meta_value><![CDATA[a:6:{s:5:"width";i:480;s:6:"height";i:140;s:4:"file";s:32:"2026/05/cwp-stepdots-purple.webp";s:8:"filesize";i:2444;s:5:"sizes";a:2:{s:6:"medium";a:5:{s:4:"file";s:31:"cwp-stepdots-purple-300x88.webp";s:5:"width";i:300;s:6:"height";i:88;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:2296;}s:9:"thumbnail";a:5:{s:4:"file";s:32:"cwp-stepdots-purple-150x140.webp";s:5:"width";i:150;s:6:"height";i:140;s:9:"mime-type";s:10:"image/webp";s:8:"filesize";i:678;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+  </wp:postmeta>
+</item>
+<item>
+  <title><![CDATA[cwp-stepdots-purple@2x]]></title>
+  <link>http://localhost:8886/cwp-stepdots-purple2x/</link>
+  <pubDate>Sun, 03 May 2026 16:00:28 +0000</pubDate>
+  <dc:creator/>
+  <guid isPermaLink="false">http://localhost:8886/wp-content/uploads/2026/05/cwp-stepdots-purple@2x.png</guid>
+  <description/>
+  <content:encoded><![CDATA[]]></content:encoded>
+  <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+  <wp:post_id>129</wp:post_id>
+  <wp:post_date>2026-05-03 16:00:28</wp:post_date>
+  <wp:post_date_gmt>2026-05-03 16:00:28</wp:post_date_gmt>
+  <wp:post_modified>2026-05-03 16:00:28</wp:post_modified>
+  <wp:post_modified_gmt>2026-05-03 16:00:28</wp:post_modified_gmt>
+  <wp:comment_status>open</wp:comment_status>
+  <wp:ping_status>closed</wp:ping_status>
+  <wp:post_name>cwp-stepdots-purple2x</wp:post_name>
+  <wp:status>inherit</wp:status>
+  <wp:post_parent>0</wp:post_parent>
+  <wp:menu_order>0</wp:menu_order>
+  <wp:post_type>attachment</wp:post_type>
+  <wp:post_password/>
+  <wp:is_sticky>0</wp:is_sticky>
+  <wp:attachment_url>http://localhost:8886/wp-content/uploads/2026/05/cwp-stepdots-purple@2x.png</wp:attachment_url>
+  <wp:postmeta>
+    <wp:meta_key>_wp_attached_file</wp:meta_key>
+    <wp:meta_value><![CDATA[2026/05/cwp-stepdots-purple@2x.png]]></wp:meta_value>
+  </wp:postmeta>
+  <wp:postmeta>
+    <wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+    <wp:meta_value><![CDATA[a:6:{s:5:"width";i:960;s:6:"height";i:280;s:4:"file";s:34:"2026/05/cwp-stepdots-purple@2x.png";s:8:"filesize";i:11850;s:5:"sizes";a:3:{s:6:"medium";a:5:{s:4:"file";s:33:"cwp-stepdots-purple@2x-300x88.png";s:5:"width";i:300;s:6:"height";i:88;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:3827;}s:9:"thumbnail";a:5:{s:4:"file";s:34:"cwp-stepdots-purple@2x-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:2483;}s:12:"medium_large";a:5:{s:4:"file";s:34:"cwp-stepdots-purple@2x-768x224.png";s:5:"width";i:768;s:6:"height";i:224;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:12946;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+  </wp:postmeta>
+</item>
+<item>
+  <title><![CDATA[Header]]></title>
+  <link>http://localhost:8886/2026/05/03/header/</link>
+  <pubDate>Sun, 03 May 2026 16:01:06 +0000</pubDate>
+  <dc:creator/>
+  <guid isPermaLink="false">http://localhost:8886/2026/05/03/header/</guid>
+  <description/>
+  <content:encoded><![CDATA[<!-- wp:group {"align":"full","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:image {"lightbox":{"enabled":false},"id":129,"sizeSlug":"medium","linkDestination":"custom"} -->
+<figure class="wp-block-image size-medium"><a href="http://localhost:8886/"><img src="http://localhost:8886/wp-content/uploads/2026/05/cwp-stepdots-purple@2x-300x88.png" alt="" class="wp-image-129"/></a></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
+<div class="wp-block-group"><!-- wp:navigation {"ref":45,"overlayBackgroundColor":"base","overlayTextColor":"contrast","layout":{"type":"flex","justifyContent":"right","flexWrap":"wrap"}} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content:encoded>
+  <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+  <wp:post_id>130</wp:post_id>
+  <wp:post_date>2026-05-03 16:01:06</wp:post_date>
+  <wp:post_date_gmt>2026-05-03 16:01:06</wp:post_date_gmt>
+  <wp:post_modified>2026-05-03 16:02:05</wp:post_modified>
+  <wp:post_modified_gmt>2026-05-03 16:02:05</wp:post_modified_gmt>
+  <wp:comment_status>closed</wp:comment_status>
+  <wp:ping_status>closed</wp:ping_status>
+  <wp:post_name>header</wp:post_name>
+  <wp:status>publish</wp:status>
+  <wp:post_parent>0</wp:post_parent>
+  <wp:menu_order>0</wp:menu_order>
+  <wp:post_type>wp_template_part</wp:post_type>
+  <wp:post_password/>
+  <wp:is_sticky>0</wp:is_sticky>
+  <category domain="wp_theme" nicename="cw5k"><![CDATA[cw5k]]></category>
+  <category domain="wp_template_part_area" nicename="header"><![CDATA[header]]></category>
+  <wp:postmeta>
+    <wp:meta_key>origin</wp:meta_key>
+    <wp:meta_value><![CDATA[theme]]></wp:meta_value>
+  </wp:postmeta>
 </item>
   </channel>
 </rss>

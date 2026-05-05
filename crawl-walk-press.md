@@ -4,6 +4,8 @@
 
 *Created by Alan Smodic*
 
+*Last verified: May 5, 2026*
+
 ---
 
 ## Table of Contents
@@ -92,21 +94,21 @@ Each week builds on the last. Start with installation, end with a team demo.
 
 ### Week 1: Get the Stack →
 
-Install & explore Playground, Studio Code, Telex, Claude + MCP, and WordPress AI Experiments plugin. Understand the Abilities API.
+Install & explore Playground, Studio CLI/Code, Telex, Claude + MCP, and WordPress AI Experiments plugin. Finish with a toolkit map and safe testing setup.
 
 ### Week 2: Connect & Create →
 
-Wire the tools into your editorial workflow. Create content, metadata, and newsletters through MCP.
+Wire the tools into editorial workflows. Finish with a publication profile, reusable prompts, newsletter draft, and metadata workflow.
 
 ### Week 3: Editorial Workflows →
 
-Build repeatable workflows: content repurposing, competitive intel, performance audits, editorial planning.
+Build repeatable operations: content repurposing, taxonomy cleanup, performance audits, editorial planning, and internal links.
 
 ### Week 4: Ship & Scale →
 
-Write your AI policy, build the team playbook, measure impact, and deliver your demo.
+Package the work for your team: policy, playbook, prompt library, impact report, and live demo.
 
-Built by **WordPress** to help editorial and product teams master the WordPress AI stack. Questions? Visit [WordPress.com](https://wordpress.com) or [Pressable](https://pressable.com) to get started. | FAQ →
+Built for editorial and product teams learning the WordPress AI stack. Questions? Visit [WordPress.com](https://wordpress.com) or [Pressable](https://pressable.com) to get started. | FAQ →
 
 Created by **Alan Smodic**
 
@@ -163,6 +165,16 @@ Ready? Start with Day 0 →
 Before we touch any WordPress AI tools, make sure you have access to everything you'll need this month. This is 10 minutes of setup that saves you from hitting walls later.
 
 ### What you need
+
+### Access checklist
+
+| Need | Required? | Notes |
+|---|---|---|
+| AI assistant account | Required | Claude Pro/Team is used in examples; ChatGPT Plus, Gemini Advanced, Cursor, or another MCP-capable assistant can work. |
+| WordPress site | Required | Use WordPress.com, Pressable, self-hosted WordPress, Studio CLI, or Playground depending on the exercise. |
+| WordPress.com account | Recommended | Needed for the easiest MCP path and for Studio preview/auth flows. |
+| Node.js 18+ | Required for Studio CLI | Studio CLI and many local development workflows need Node available in Terminal. |
+| Production write access | Optional | Use drafts and test sites first. You do not need production access to learn the workflows. |
 
 #### 1. A paid AI account
 
@@ -256,15 +268,20 @@ Playground gives you a full WordPress site to experiment with AI tools — conse
 
 Yesterday you built a site in the browser with Playground. That's great for experiments, but real editorial workflows need a persistent local environment — one that keeps your content between sessions, runs the exact PHP version your production site uses, and gives you full WP-CLI access. That's **Studio CLI**.
 
-Studio CLI (`wp-studio`) runs WordPress locally using the same Playground engine you used yesterday, but with persistence, version control, and a proper CLI interface. No Docker, no MAMP, no Apache config files. One command and you have a running WordPress site.
+Studio CLI runs WordPress locally using the same Playground engine you used yesterday, but with persistence, version control, and a proper CLI interface. No Docker, no MAMP, no Apache config files. One command and you have a running WordPress site.
 
-🔧 **Tool: Studio CLI (wp-studio)** — Automattic's command-line tool for local WordPress development. Built on WordPress Playground. Install via `npm install -g wp-studio`. Docs: [npmjs.com/package/wp-studio](https://www.npmjs.com/package/wp-studio)
+🔧 **Tool: Studio CLI** — Automattic's command-line tool for local WordPress development. Built on WordPress Playground. Install it from Studio Desktop settings or via `npm install -g wp-studio`. Docs: [developer.wordpress.com/docs/developer-tools/studio/cli](https://developer.wordpress.com/docs/developer-tools/studio/cli/)
 
 ## Step 1: Install Studio CLI
 
-You need Node.js 18+ installed. If you don't have it, grab it from [nodejs.org](https://nodejs.org/). Then install Studio CLI globally:
+Recommended path: install the [Studio desktop app](https://developer.wordpress.com/studio/), then enable **Studio CLI for terminal** from Studio settings. If you prefer npm, you can install the CLI globally instead:
 
-`npm install -g wp-studio`
+```bash
+# Recommended: Studio Desktop → Settings → Studio CLI for terminal
+
+# Alternate npm install:
+npm install -g wp-studio
+```
 
 Verify the installation:
 
@@ -404,7 +421,7 @@ Back on the [Telex homepage](https://telex.automattic.ai), scroll down to the **
 
 You now have three different ways to build things with AI for WordPress:
 
-- **Telex** — best for custom blocks and themes from scratch. Web-based, generates downloadable plugins. No local setup needed.- **Studio Code** (coming Day 2) — best for full site building, theme iteration, and performance audits. Runs locally, AI-powered CLI.- **Claude + MCP** (coming Day 4) — best for content operations: creating posts, managing metadata, reading your site. Works with your live site.
+- **Telex** — best for custom blocks and themes from scratch. Web-based, generates downloadable plugins. No local setup needed.- **Studio Code** — best for full site building, theme iteration, and performance audits after Studio CLI is installed. Runs locally as an AI-powered CLI.- **Claude + MCP** (coming Day 4) — best for content operations: creating posts, managing metadata, reading your site. Works with your live site.
 
 They complement each other. Telex builds the tools (blocks, themes). MCP operates the content. Studio Code handles the infrastructure.
 
@@ -441,6 +458,8 @@ MCP works through the Abilities API you'll learn about on Day 6 — your site's 
 - Install the **[mcp-adapter plugin](https://github.com/WordPress/mcp-adapter)** on your WordPress site (download from GitHub, upload as plugin).- Set up **[@automattic/mcp-wordpress-remote](https://github.com/Automattic/mcp-wordpress-remote)** as a local proxy — this bridges your local AI client to the remote WordPress site.- Configure authentication using Application Passwords (Settings → Users → your profile → Application Passwords in WordPress admin) or JWT tokens.- Follow the [detailed setup guide](https://developer.wordpress.com/docs/mcp/) for your specific configuration.
 
 **Stuck on setup?** Take a screenshot of whatever you're seeing and paste it into a Claude browser chat with: "I'm trying to set up WordPress MCP to connect Claude Desktop to my WordPress site. Here's what I see — what should I do?" The screenshot-and-ask technique from Day 1 works perfectly here.
+
+💡 **Operating rules:** Connect MCP to a test site first, create drafts before publishing, review every AI-generated change, and avoid bulk updates on production until you have a backup or rollback plan. The power move is safe iteration, not surprise automation.
 
 ### Test the connection
 
@@ -670,13 +689,20 @@ Here's what you should have access to after Week 1:
 
 - Connect Claude to WordPress (MCP)
 
+## Save These Artifacts
+
+- Your toolkit map: accounts, tools, and where each one fits
+- A working local Studio site or Playground sandbox
+- One Telex-built block idea your team could actually use
+- A safe MCP test draft, not a production publish
+
 ## How the Tools Connect
 
 Here's the mental model for how these tools work together:
 
 ┌──────────────────────────────────────────┐
 │ AI Agents │
-│ (Claude Desktop, Studio Code, Sage) │
+│ (Claude Desktop, Studio Code, AI tools) │
 └───────────┬──────────────────────────────┘
 │ MCP Protocol
 ▼
@@ -1164,6 +1190,14 @@ In Week 1, you set up the tools. This week, you connected them into real workflo
 
 - **Data-driven editorial** — Topic gaps, headline patterns, pre-publish checks (Day 13)
 
+## Save These Artifacts
+
+- A publication profile Claude can reuse
+- A metadata audit prompt and review checklist
+- A newsletter draft workflow
+- One content package template
+- One custom editorial block brief
+
 ## The Time Savings
 
 Here's a rough estimate of time saved per week for a typical editorial team:
@@ -1610,6 +1644,14 @@ Generate today's newsletter draft (Day 10) and send it to the newsletter editor 
 
 - **Internal linking at scale** — bulk link analysis and insertion (Day 20)
 
+## Save These Artifacts
+
+- Your 15-minute editorial sprint checklist
+- A taxonomy cleanup plan
+- A performance audit summary
+- An editorial calendar prompt
+- An internal linking workflow your team can repeat
+
 ## What's Coming in Week 4
 
 The final week is about **shipping and scaling**:
@@ -1789,7 +1831,7 @@ Not everyone on your team needs the full 30-day program. Create role-specific qu
 Create 3 quick-start guides as draft pages:
 
 1. **"AI Quick Start for Writers"** (5 min read)
-- How to use Title Suggestions and Sage in the editor
+- How to use title suggestions and AI content features in the editor
 - 3 prompts for improving drafts
 - The Green/Yellow/Red policy summary
 
@@ -2066,6 +2108,14 @@ What do you want from the audience? More time to explore? A bigger pilot? An eng
 ## You Made It
 
 30 days ago, the WordPress AI stack was a list of unfamiliar tools. Now you've used every one of them, built real workflows, measured the impact, written a policy, created a playbook, and taught a teammate. These last three days are about putting it all together.
+
+## Your Final Package
+
+- AI editorial policy
+- Team playbook and prompt library
+- Role-specific quick-start guides
+- Impact report with time-savings and quality metrics
+- Demo script and follow-up plan
 
 ## Day 28: Deliver Your Demo
 

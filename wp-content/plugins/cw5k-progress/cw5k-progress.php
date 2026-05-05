@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: CW5K Progress Tracker
- * Description: localStorage-based progress tracking for Couch to WordPress AI 5K
+ * Description: localStorage-based progress tracking for Crawl, Walk, Press
  * Version: 1.0
  */
 
