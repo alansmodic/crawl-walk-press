@@ -2,7 +2,7 @@
 	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
 	"preferredVersions": {
 		"php": "8.3",
-		"wp": "latest"
+		"wp": "7.0"
 	},
 	"features": {
 		"networking": true
@@ -23,6 +23,16 @@
 			"pluginZipFile": {
 				"resource": "url",
 				"url": "https://raw.githubusercontent.com/alansmodic/crawl-walk-press/main/.playground/cw5k-progress.zip"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "installPlugin",
+			"pluginZipFile": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/alansmodic/crawl-walk-press/main/.playground/cw5k-style.zip"
 			},
 			"options": {
 				"activate": true

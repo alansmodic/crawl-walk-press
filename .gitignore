@@ -26,8 +26,6 @@ wp-content/plugins/akismet/
 wp-content/plugins/hello.php
 wp-content/plugins/index.php
 
-# Deactivated plugins
-wp-content/plugins/cw5k-style/
 
 # Database access control
 wp-content/database/.htaccess

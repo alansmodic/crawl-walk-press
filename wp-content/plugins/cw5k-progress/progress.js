@@ -51,13 +51,19 @@
       ${completed > 0 ? '<button class="cw5k-reset-btn" id="cw5k-reset">Reset Progress</button>' : ''}
     `;
 
-    // Insert after the first group (hero section)
-    const hero = document.querySelector('.entry-content > .wp-block-group, .wp-block-post-content > .wp-block-group');
-    if (hero && hero.nextSibling) {
-      hero.parentNode.insertBefore(widget, hero.nextSibling);
+    // Prefer the cw5k/progress block's mount point if it's on the page;
+    // otherwise fall back to legacy heuristic placement.
+    const mount = document.querySelector('[data-cw5k-progress]');
+    if (mount) {
+      mount.replaceWith(widget);
     } else {
-      const content = document.querySelector('.entry-content, .wp-block-post-content');
-      if (content) content.prepend(widget);
+      const hero = document.querySelector('.entry-content > .wp-block-group, .wp-block-post-content > .wp-block-group');
+      if (hero && hero.nextSibling) {
+        hero.parentNode.insertBefore(widget, hero.nextSibling);
+      } else {
+        const content = document.querySelector('.entry-content, .wp-block-post-content');
+        if (content) content.prepend(widget);
+      }
     }
 
     // Build the day grid
