@@ -2,11 +2,11 @@
 
 **30 days to master the WordPress AI stack.**
 
-A free, open-source training program for editorial and product teams. Learn to use the WordPress AI Experiments plugin, WordPress MCP, Studio CLI & Code, Telex, WordPress Playground, and the Abilities API — from zero to building real editorial workflows.
+A free, open-source training program for editorial and product teams. Learn to use the WordPress AI plugin, WordPress MCP, Studio CLI & Code, Telex, WordPress Playground, and the Abilities API — from zero to building real editorial workflows.
 
 [**▶ Launch in WordPress Playground**](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/alansmodic/crawl-walk-press/main/blueprint.json) — try the full course in your browser, no install needed
 
-_Last verified: May 5, 2026._
+_Last verified: May 25, 2026 against WordPress 7.0 "Armstrong"._
 
 ## Get Started
 
@@ -38,9 +38,10 @@ Import [**todoist-template.csv**](todoist-template.csv) into Todoist as a new pr
 
 ## What's Included
 
-- **35 pages** of structured training content (Days 0–30, organized by week)
+- **37 pages** of structured training content (Days 0–30, organized by week)
 - **Custom child theme** (`cw5k`) based on Twenty Twenty-Five with polished design tokens
-- **Progress tracker plugin** — localStorage-based, zero-friction completion tracking
+- **Visual design plugin** (`cw5k-style`) — site-wide typography and design tokens
+- **Progress tracker plugin** (`cw5k-progress`) — auto-registered PHP-only block (`cw5k/progress`) for the homepage widget, plus a read-only `cw5k/list-days` ability registered with the WP 7.0 Abilities API at `/wp-json/wp-abilities/v1/abilities/cw5k/list-days/run`
 - **SQLite database** — full site state, no import needed
 - **XML content export** — human-readable content for diffing changes
 - **Playground blueprint** — one-click launch in the browser
@@ -61,7 +62,7 @@ Import [**todoist-template.csv**](todoist-template.csv) into Todoist as a new pr
 
 | Tool | What It Does |
 |------|-------------|
-| WordPress AI Experiments Plugin | Title gen, excerpts, alt text, content optimization |
+| WordPress AI plugin | Abilities Explorer, title/excerpt/alt text generation, image generation, editorial notes |
 | WordPress MCP | Connect Claude and AI agents to your WordPress site |
 | Studio CLI & Studio Code | Local dev + AI-powered theme/site building |
 | Telex | Describe an idea → get a WordPress block or theme |
@@ -74,7 +75,7 @@ Import [**todoist-template.csv**](todoist-template.csv) into Todoist as a new pr
 This training works with **any WordPress setup**:
 - [WordPress.com](https://wordpress.com) — managed hosting with built-in AI features and MCP on paid plans
 - [Pressable](https://pressable.com) — managed WordPress hosting by Automattic
-- Any self-hosted WordPress site (6.7+)
+- Any self-hosted WordPress site (7.0+ recommended — the course's Abilities API and AI plugin exercises require it)
 
 ## Contributing
 
