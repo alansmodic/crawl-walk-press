@@ -277,12 +277,16 @@ Studio CLI runs WordPress locally using the same Playground engine you used yest
 
 ### Step 1: Install Studio CLI
 
-Recommended path: install the [Studio desktop app](https://developer.wordpress.com/studio/), then enable **Studio CLI for terminal** from Studio settings. If you prefer npm, you can install the CLI globally instead:
+**Pick one install method — don't mix them.** The Studio desktop app ships with its own CLI. If you also install it via npm, you'll end up with duplicate `studio` commands that compete on your `$PATH` — and the copy that wins may be an older version missing key commands.
+
+- **If you use the Studio desktop app (recommended):** you already have the CLI — just enable **Settings → Studio CLI for terminal**. It updates automatically with the app, so skip npm entirely.
+- **If you don't want the desktop app:** install via npm only.
 
 ``` wp-block-code
-## Recommended: Studio Desktop → Settings → Studio CLI for terminal
+## Option A — Studio desktop app (recommended):
+## Settings → Studio CLI for terminal
 
-## Alternate npm install:
+## Option B — npm only (skip if you have the desktop app):
 npm install -g wp-studio
 ```
 
@@ -291,6 +295,22 @@ Verify the installation:
 ``` wp-block-code
 studio --version
 ```
+
+> ⚠️ **Already installed the CLI another way? Check for conflicts.**
+>
+> If `studio` is missing commands or behaving oddly, you may have more than one copy installed. List every one on your `$PATH` and see which actually runs:
+>
+> ``` wp-block-code
+> which -a studio   # every studio on your PATH
+> studio --version  # the one that actually runs
+> ```
+>
+> The desktop app symlinks `studio` into `~/.local/bin` and `/usr/local/bin`, while npm installs it into your Node folder. Whichever comes first on your `$PATH` wins — which is why a fresh `npm install` can look like it did nothing. Two ways to fix it:
+>
+> - **Keep the desktop app (simplest):** remove the npm copy with `npm uninstall -g wp-studio` and let the app manage the CLI.
+> - **Prefer npm:** remove the desktop symlinks with `rm ~/.local/bin/studio /usr/local/bin/studio`, then reopen your terminal so the npm copy takes over.
+>
+> An old `v1.0.0` from an early desktop build is the usual culprit behind "missing commands." Confirm you're on a recent release — `studio --version` should report 1.7 or higher.
 
 ### Step 2: Create Your First Site
 
