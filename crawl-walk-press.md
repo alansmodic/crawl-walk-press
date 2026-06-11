@@ -9,6 +9,7 @@ Verified May 25, 2026 against WordPress 7.0 "Armstrong".
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [About](#about)
 - [Week 1: Get the Stack](#week-1-get-the-stack)
   - [Day 0: Get Your Accounts Ready](#day-0-get-your-accounts-ready)
   - [Day 1: Build a Site in Playground — Zero Install](#day-1-build-a-site-in-playground-zero-install)
@@ -42,6 +43,7 @@ Verified May 25, 2026 against WordPress 7.0 "Armstrong".
   - [Day 26: Advanced — Custom Abilities for Your Newsroom](#day-26-advanced-custom-abilities-for-your-newsroom)
   - [Day 27: Prepare Your Demo](#day-27-prepare-your-demo)
   - [Days 28–30: Race Day — Ship It](#days-2830-race-day-ship-it)
+- [Frequently Asked Questions](#frequently-asked-questions)
 
 ---
 
@@ -108,6 +110,75 @@ Build repeatable operations: content repurposing, taxonomy cleanup, performance 
 Package the work for your team: policy, playbook, prompt library, impact report, and live demo.
 
 Built with **WordPress** to help editorial and product teams master the WordPress AI stack. Questions? [FAQ →](http://localhost:8886/faq/)
+
+---
+
+# About
+
+A free, open-source 30-day training program that teaches editorial and product teams to build with the WordPress AI stack.
+
+## Why This Exists
+
+WordPress is becoming AI-native. In 2025-2026, the platform shipped the Abilities API, a Model Context Protocol server, an AI Client SDK, and a growing ecosystem of AI-powered plugins. These are powerful tools — but most editorial teams don't know they exist, let alone how to use them together.
+
+**Crawl, Walk, Press** bridges that gap. It's a structured, hands-on program designed for the people who actually create content — editors, writers, product managers, and publishing teams — not just developers.
+
+## The Philosophy
+
+The name says it all:
+
+- **Crawl** (Week 1) — Install the tools, understand what each one does, get comfortable
+- **Walk** (Weeks 2-3) — Connect them to your real content, build actual workflows, see real results
+- **Press** (Week 4) — Ship it to your team, write the policy, measure the impact, present the demo
+
+Every exercise takes 10-20 minutes. No coding required through Day 25. You can do it during your morning coffee.
+
+## The Stack
+
+You'll learn seven tools that make WordPress AI-native:
+
+| Tool | What It Does | When You Learn It |
+|---|---|---|
+| **Abilities API** | WordPress core framework for AI-discoverable capabilities | Day 6 |
+| **WordPress MCP** | Connects AI agents like Claude to your WordPress site | Day 4, then throughout |
+| **Studio CLI & Studio Code** | Local dev + AI-powered theme/site building | Day 2, Weeks 3-4 |
+| **Telex** | Describe an idea in English → get a WordPress block or theme | Days 3, 12, 19 |
+| **WordPress Playground** | Full WordPress in your browser, zero install | Day 1 |
+| **WordPress AI Experiments Plugin** | Title gen, excerpts, alt text, content optimization | Day 5 |
+| **WordPress 7.0 AI Client** | Provider-agnostic AI SDK in WordPress core | Days 26, 28-30 |
+
+## Who It's For
+
+This program is designed for:
+
+- **Editorial teams** at digital publishers who want to integrate AI into their daily workflows
+- **Product managers** evaluating WordPress AI capabilities for their publications
+- **Content strategists** looking to scale output without sacrificing quality
+- **Anyone curious** about how WordPress and AI work together in 2026
+
+You don't need to be a developer. You don't need a specific hosting provider. You just need a computer, curiosity, and 15 minutes a day.
+
+## How to Access the Course
+
+### 🌐 In Your Browser
+
+[Launch in WordPress Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/alansmodic/crawl-walk-press/main/blueprint.json) — try the full course instantly, no install needed.
+
+### 💻 Run Locally
+
+Clone the [GitHub repo](https://github.com/alansmodic/crawl-walk-press) and run with Studio CLI for a persistent local site with full WP-CLI access.
+
+### 📄 Read Offline
+
+Download the [full markdown](https://github.com/alansmodic/crawl-walk-press/blob/main/crawl-walk-press.md) or import the [Todoist template](https://github.com/alansmodic/crawl-walk-press/blob/main/todoist-template.csv) for task tracking.
+
+## Open Source
+
+Crawl, Walk, Press is free and open-source under the GPL v2 license — the same license as WordPress itself. The entire course, theme, and progress tracker are available on [GitHub](https://github.com/alansmodic/crawl-walk-press). Found a typo? Have a better exercise idea? PRs welcome.
+
+## Created By
+
+**Alan Smodic** — I work with media publishers building on WordPress, and kept seeing the same gap: powerful AI tools shipping in WordPress, but editorial teams not knowing how to use them. This program is my attempt to fix that, one 15-minute exercise at a time.
 
 ---
 
@@ -2239,3 +2310,73 @@ The WordPress AI stack is evolving fast. Keep your eye on:
 You started from the couch. Now you're running a 5K. The WordPress AI stack isn't a future promise — it's tools that work today, and you know how to use every one of them. Keep running.
 
 [← Day 27: Prepare Your Demo](http://localhost:8886/week-4-ship-scale/day-27-prepare-your-demo/) · [Back to Home →](http://localhost:8886/)
+
+---
+
+# Frequently Asked Questions
+
+## What do I need to start?
+
+A computer with Node.js 18+ installed, a WordPress.com account, and a Claude.ai account (Pro or Team plan recommended for MCP access). Everything else is covered in [Day 0](https://crawlwalkpress.com/week-1-get-the-stack/day-0-get-your-accounts-ready/). Total setup time: about 20 minutes.
+
+## Do I need to be a developer?
+
+No. The program is designed for editorial and product teams. You'll copy-paste commands into a terminal and write prompts in natural language. Days 1-25 require zero coding. Day 26 (custom abilities) is more technical but can be completed as a design exercise — you write specs, your engineering team builds them.
+
+## How much time does it take per day?
+
+10-20 minutes per exercise. Some days (like the demo prep on Day 27) take 25-30 minutes. You can do it during your morning coffee.
+
+## Do I need a WordPress account?
+
+No. Most exercises work with any WordPress site. WordPress AI Experiments plugin features (Days 5, 13, 20) are platform-specific, but the program provides alternative approaches for non-WordPress sites. MCP, Telex, Studio CLI, Playground, and the Abilities API work with any WordPress setup.
+
+## What is MCP and why does it matter?
+
+MCP (Model Context Protocol) is an open standard that connects AI agents to external tools and data. For WordPress, it means Claude can directly read your posts, create drafts, manage categories, and execute workflows — without you copy-pasting content between the AI and your CMS. It's the difference between "AI as a writing tool" and "AI as a workflow partner." [Setup guide →](https://developer.wordpress.com/docs/mcp/)
+
+## What's the Abilities API?
+
+A framework in WordPress core (since 6.9) that lets plugins and themes declare what they can do in a way AI agents can discover. It's like a menu for AI — agents read it to know what actions are available on your site. Detailed explanation on [Day 6](https://crawlwalkpress.com/week-1-get-the-stack/day-6-understand-the-abilities-api/). [Developer docs →](https://developer.wordpress.org/apis/abilities-api/)
+
+## What's Telex?
+
+[Telex](https://telex.automattic.ai/) is Automattic AI Labs' natural language builder. Describe a block or theme in plain English, and Telex generates a working WordPress plugin or theme as a downloadable .zip. It's covered in [Day 3](https://crawlwalkpress.com/week-1-get-the-stack/day-3-build-a-block-with-telex-no-code-required/) (blocks), [Day 12](https://crawlwalkpress.com/week-2-connect-create/day-12-build-custom-editorial-blocks-with-telex/) (editorial blocks), and [Day 19](https://crawlwalkpress.com/week-3-editorial-workflows/day-19-build-a-custom-theme-with-telex/) (themes).
+
+## What's Studio Code vs Studio CLI?
+
+**Studio CLI** (`wp-studio`) is a command-line tool for creating and managing local WordPress sites. **Studio Code** is an AI-powered CLI built on Claude Code, specifically tuned for WordPress development — it can build themes, run audits, and manage your site through natural language. Studio CLI is covered on [Day 2](https://crawlwalkpress.com/week-1-get-the-stack/day-2-install-studio-cli-spin-up-a-local-site/); Studio Code features throughout Weeks 3-4.
+
+## Can I use this with my team?
+
+Absolutely — that's the goal. The program is designed as a self-paced curriculum you can share with your entire editorial/product team. Week 4 focuses specifically on scaling: writing an AI policy (Day 22), building a team playbook (Day 23), pairing with teammates (Day 24), and measuring impact (Day 25).
+
+## What about content quality and accuracy?
+
+AI-generated content should always be reviewed by a human before publication. The program emphasizes this repeatedly: AI drafts, humans refine and publish. Day 22 covers building an AI editorial policy with clear Green/Yellow/Red guidelines for your team.
+
+## What plugins should I install?
+
+The course works without any third-party plugins — all exercises use WordPress core features, MCP, and the tools in the stack. But several popular plugins now support the **Abilities API**, which means AI agents can discover and use their features automatically. Installing these will make your exercises richer:
+
+> 🔧 **Plugins with Abilities API support** — These plugins expose their capabilities to AI agents, making them discoverable via MCP. [Full list →](https://j.cv/ai-across-the-wp-ecosystem/)
+
+| Plugin | What It Does | Why It Helps |
+|---|---|---|
+| **[Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)** | SEO analysis, meta descriptions, sitemaps | Days 9, 16, 20 — AI agents can read and optimize your SEO settings |
+| **[Jetpack](https://jetpack.com/)** | Publishing, analytics, security, forms | Days 0, 1 — Widely used by publishers, AI-discoverable features |
+| **[ACF](https://wordpress.org/plugins/advanced-custom-fields/)** (6.8+) | Custom fields, post types, taxonomies | Day 26 — AI agents can discover and create custom content models |
+| **[WPForms](https://wordpress.org/plugins/wpforms-lite/)** | Forms, surveys, lead generation | Practical for editorial feedback loops and audience research |
+| **[WordPress AI Experiments](https://github.com/WordPress/ai)** | Title gen, excerpts, alt text, content optimization | Day 5 — Core AI features in the editor, works with any AI provider |
+
+You don't need all of these — pick the ones relevant to your workflow. The **WordPress AI Experiments plugin** is the only one used directly in the exercises. The others enhance what AI agents can do when connected via MCP.
+
+## Where can I learn more about each tool?
+
+- **Abilities API:** [developer.wordpress.org](https://developer.wordpress.org/apis/abilities-api/)
+- **WordPress MCP:** [developer.wordpress.com/docs/mcp](https://developer.wordpress.com/docs/mcp/)
+- **Studio CLI:** [npmjs.com/package/wp-studio](https://www.npmjs.com/package/wp-studio)
+- **Studio Code:** [wordpress.com blog announcement](https://wordpress.com/blog/2026/04/27/studio-code-beta/)
+- **Telex:** [telex.automattic.ai](https://telex.automattic.ai/)
+- **WordPress AI plugin:** [github.com/WordPress/ai](https://github.com/WordPress/ai/)
+- **WordPress Playground:** [playground.wordpress.net](https://playground.wordpress.net/)
