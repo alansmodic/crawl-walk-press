@@ -558,6 +558,19 @@ The AI plugin is in the official WordPress.org plugin directory, so install is t
 
 **For Playground users:** install it directly in your Playground sandbox to experiment risk-free before adding it to a production site.
 
+> 🔑 **Where do I get an API key?**
+>
+> An API key is what lets the plugin talk to an AI provider — and it's **separate from a consumer chat subscription**. A ChatGPT Plus or Claude Pro plan does *not* include API access; keys are created and billed on their own, usually pay-as-you-go based on usage.
+>
+> **On an organization or enterprise AI plan?** You may not be able to create your own key. Ask your IT or admin team to issue one, or to enable provider access for your account.
+>
+> **On an individual plan?** You create and fund a key yourself in the provider's developer console:
+> - **Anthropic (Claude):** [console.anthropic.com](https://console.anthropic.com/settings/keys) → API Keys
+> - **OpenAI (ChatGPT):** [platform.openai.com](https://platform.openai.com/api-keys) → API keys
+> - **Google (Gemini):** [aistudio.google.com](https://aistudio.google.com/apikey) → Get API key
+>
+> **Watch the cost.** API usage is metered per request and billed separately from any subscription. Most providers offer a small free tier or trial credit to start, and let you set a hard spending cap in the console — worth doing before you experiment.
+
 ### The Core Features
 
 #### 1. Abilities Explorer
